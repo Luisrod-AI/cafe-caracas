@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Busca cafés en Caracas por ubicación, ambiente, precio y servicios."
+  />
+
+  <title>Buscar cafés en Caracas</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+</head>
+
+<body class="search-page">
+
+  <header class="search-page-header">
+
+    <div class="search-page-header__top">
+
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">
+          <span></span>
+        </span>
+
+        <div>
+          <strong>Caracas Café</strong>
+          <small>Descubre Caracas café por café</small>
+        </div>
+      </a>
+
+      <div class="search-page-bar">
+
+        <label class="sr-only" for="searchPageInput">
+          Buscar cafés
+        </label>
+
+        <input
+          type="search"
+          id="searchPageInput"
+          placeholder="¿Qué café quieres descubrir hoy?"
+          autocomplete="off"
+        />
+
+        <button
+          id="searchPageButton"
+          type="button"
+          aria-label="Buscar cafés"
+         >
+          <span class="search-icon" aria-hidden="true"></span>
+        </button>
+
+      </div>
+
+    </div>
+
+    <div class="advanced-filters">
+
+      <button
+  type="button"
+  class="filter-chip filter-chip--active"
+  data-filter="all"
+  >
+  Todos
+</button>
+
+<div class="filter-dropdown">
+
+  <button
+    type="button"
+    class="filter-chip"
+    data-filter="zone"
+    id="zoneFilterButton"
+  >
+    Zona ▾
+  </button>
+
+  <div
+    class="filter-dropdown__menu"
+    id="zoneFilterMenu"
+    hidden
+  >
+    <button type="button" data-zone="este">
+      Este
+    </button>
+
+    <button type="button" data-zone="centro">
+      Centro
+    </button>
+
+    <button type="button" data-zone="oeste">
+      Oeste
+    </button>
+
+    <button type="button" data-zone="varias">
+      Varias zonas
+    </button>
+  </div>
+
+</div>
+
+<div class="filter-dropdown">
+
+  <button
+    type="button"
+    class="filter-chip"
+    data-filter="price"
+    id="priceFilterButton"
+  >
+    Precio ▾
+  </button>
+
+  <div
+    class="filter-dropdown__menu"
+    id="priceFilterMenu"
+    hidden
+  >
+    <button type="button" data-price="low">
+      Económico
+    </button>
+
+    <button type="button" data-price="medium">
+      Medio
+    </button>
+
+    <button type="button" data-price="high">
+      Alto
+    </button>
+
+    <button type="button" data-price="unknown">
+      Por verificar
+    </button>
+  </div>
+
+</div>
+
+      <button type="button" class="filter-chip" data-amenity="wifi">
+  WiFi
+</button>
+
+<button type="button" class="filter-chip" data-amenity="coworking">
+  Coworking
+</button>
+
+<button type="button" class="filter-chip" data-amenity="cozy">
+  Cozy
+</button>
+
+<button type="button" class="filter-chip" data-amenity="terrace">
+  Terraza
+</button>
+
+<button type="button" class="filter-chip" data-amenity="pet_friendly">
+  Pet Friendly
+</button>
+
+<button type="button" class="filter-chip" data-amenity="parking">
+  Estacionamiento
+</button>
+
+<button type="button" class="filter-chip" data-amenity="brunch">
+  Brunch
+</button>
+
+      <button
+  type="button"
+  class="filter-chip"
+  id="openNowFilter"
+>
+  Abierto ahora
+</button>
+
+    </div>
+
+  </header>
+
+  <main class="search-layout">
+
+  <section class="search-results-panel">
+
+    <div
+      id="searchIntro"
+      class="search-results-intro"
+    >
+      <div>
+        <span class="eyebrow">DESCUBRE</span>
+
+        <h1>Cafés cerca de ti</h1>
+
+        <p>
+          Activa tu ubicación para ver los cafés más cercanos.
+        </p>
+      </div>
+
+      <div class="mobile-location-actions">
+
+        <button
+          id="locationButton"
+          class="location-button"
+          type="button"
+        >
+          Usar mi ubicación
+        </button>
+
+        <button
+          type="button"
+          id="mobileMapToggle"
+          class="mobile-map-toggle"
+          aria-expanded="false"
+        >
+          Ver mapa
+        </button>
+
+      </div>
+    </div>
+
+    <section
+      id="nearbySection"
+      class="search-section"
+    >
+      <div
+        id="nearbyCafes"
+        class="search-card-grid"
+      ></div>
+    </section>
+
+    <section
+      id="recommendedSection"
+      class="search-section"
+    >
+      <div class="search-section__heading">
+        <div>
+          <span class="eyebrow">PARA HOY</span>
+
+          <h2>
+            Cafés recomendados
+          </h2>
+        </div>
+      </div>
+
+      <div
+        id="recommendedCafes"
+        class="search-card-grid"
+      ></div>
+    </section>
+
+    <section
+      id="searchResultsSection"
+      class="search-section"
+      hidden
+    >
+      <div class="search-section__heading">
+        <div>
+          <span class="eyebrow">RESULTADOS</span>
+
+          <h2 id="searchResultsTitle">
+            Resultados de búsqueda
+          </h2>
+        </div>
+
+        <span id="searchResultsCount"></span>
+      </div>
+
+      <div
+        id="searchResultsGrid"
+        class="search-card-grid"
+      ></div>
+    </section>
+
+  </section>
+
+  <aside class="search-map-panel">
+    <div class="map-placeholder">
+      <div id="cafesMap"></div>
+    </div>
+  </aside>
+
+</main>
+
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+></script>
+
+<script src="search.js"></script>
+</body>
+</html>

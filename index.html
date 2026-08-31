@@ -23,7 +23,9 @@
   <div class="app-header__top">
 
     <a class="brand" href="./index.html">
-      <span class="brand__logo">☕</span>
+      <span class="brand__mark" aria-hidden="true">
+        <span></span>
+      </span>
 
       <div>
         <strong>Caracas Café</strong>
@@ -31,56 +33,316 @@
       </div>
     </a>
 
-    <button id="searchLauncher" class="search-trigger">
+    <a
+  href="favorites.html"
+  class="header-favorites-link"
+  aria-label="Ver mis cafés favoritos"
+>
+  <span
+    class="header-favorites-link__heart"
+    aria-hidden="true"
+  >
+    ♡
+  </span>
 
-      <div class="search-trigger__item">
-        <strong>Buscar</strong>
-        <span>Nombre o cafetería</span>
-      </div>
+  <span>
+    Favoritos
+  </span>
 
-      <div class="search-trigger__divider"></div>
+  <span
+    id="favoritesHeaderCount"
+    class="header-favorites-link__count"
+  ></span>
+</a>
 
-      <div class="search-trigger__item">
-        <strong>Zona</strong>
-        <span>Todas</span>
-      </div>
+    <button
+  id="mobileSearchLauncher"
+  class="mobile-search-launcher"
+  type="button"
+  aria-label="Abrir búsqueda de cafés"
+>
+  <span class="mobile-search-launcher__icon"></span>
 
-      <div class="search-trigger__divider"></div>
+  <span class="mobile-search-launcher__text">
+    ¿Qué café quieres descubrir hoy?
+  </span>
+</button>
 
-      <div class="search-trigger__item">
-        <strong>Tipo</strong>
-        <span>Coworking, Cozy...</span>
-      </div>
+</div>
 
-      <span class="search-trigger__icon">
-        🔍
-      </span>
+<div class="app-header__search-row">
 
+  <div class="expanded-search-panel">
+
+  <div
+    id="searchLauncher"
+    class="search-trigger search-trigger--segmented"
+    aria-label="Filtros de búsqueda de cafés"
+  >
+  
+  <div class="search-dropdown">
+  <button
+    id="zoneDropdownButton"
+    class="search-trigger__segment"
+    type="button"
+    aria-expanded="false"
+    aria-controls="zoneDropdown"
+  >
+    <strong>Zona</strong>
+    <span id="selectedZone">Todas las zonas</span>
+  </button>
+
+  <div
+    id="zoneDropdown"
+    class="search-dropdown__menu"
+    hidden
+  >
+    <button type="button" data-zone="">
+  Todas las zonas
+</button>
+
+<button type="button" data-zone="este">
+  Este
+</button>
+
+<button type="button" data-zone="centro este">
+  Centro este
+</button>
+
+<button type="button" data-zone="centro">
+  Centro
+</button>
+
+<button type="button" data-zone="centro oeste">
+  Centro oeste
+</button>
+
+<button type="button" data-zone="oeste">
+  Oeste
+</button>
+  </div>
+</div>
+
+  <span class="search-trigger__divider" aria-hidden="true"></span>
+
+  <div class="search-dropdown">
+  <button
+    id="conceptDropdownButton"
+    class="search-trigger__segment"
+    type="button"
+    aria-expanded="false"
+    aria-controls="conceptDropdown"
+  >
+    <strong>Concepto</strong>
+    <span id="selectedConcept">¿Cómo es el café?</span>
+  </button>
+
+  <div
+    id="conceptDropdown"
+    class="search-dropdown__menu search-dropdown__menu--concept"
+    hidden
+  >
+    <label class="concept-option">
+      <input type="checkbox" value="coworking">
+      <span>Coworking</span>
+    </label>
+
+    <label class="concept-option">
+      <input type="checkbox" value="terraza">
+      <span>Terraza</span>
+    </label>
+
+    <label class="concept-option">
+      <input type="checkbox" value="pet-friendly">
+      <span>Pet Friendly</span>
+    </label>
+
+    <label class="concept-option">
+      <input type="checkbox" value="wifi">
+      <span>WiFi</span>
+    </label>
+
+    <label class="concept-option">
+      <input type="checkbox" value="estacionamiento">
+      <span>Estacionamiento</span>
+    </label>
+
+    <label class="concept-option">
+      <input type="checkbox" value="brunch">
+      <span>Brunch</span>
+    </label>
+
+    <label class="concept-option">
+      <input type="checkbox" value="silencioso">
+      <span>Silencioso</span>
+    </label>
+
+    <label class="concept-option">
+      <input type="checkbox" value="aire-libre">
+      <span>Aire libre</span>
+    </label>
+
+    <label class="concept-option">
+      <input type="checkbox" value="especialidad">
+      <span>Café de especialidad</span>
+    </label>
+  </div>
+</div>
+
+<span
+  class="search-trigger__divider"
+  aria-hidden="true"
+></span>
+
+<div class="search-dropdown">
+  <button
+    id="priceDropdownButton"
+    class="search-trigger__segment"
+    type="button"
+    aria-expanded="false"
+    aria-controls="priceDropdown"
+  >
+    <strong>Precio</strong>
+    <span id="selectedPrice">Todos los precios</span>
+  </button>
+
+  <div
+    id="priceDropdown"
+    class="search-dropdown__menu search-dropdown__menu--price"
+    hidden
+  >
+    <button type="button" data-price="">
+      Todos los precios
     </button>
+
+    <button type="button" data-price="0-10">
+      Hasta $10
+    </button>
+
+    <button type="button" data-price="10-20">
+      $10–20
+    </button>
+
+    <button type="button" data-price="20-30">
+      $20–30
+    </button>
+
+    <button type="button" data-price="30-plus">
+      Más de $30
+    </button>
+
+    <button type="button" data-price="unknown">
+      Precio por verificar
+    </button>
+  </div>
+</div>
+
+    <a
+    id="homepageSearchButton"
+    class="search-trigger__icon"
+    href="search.html"
+    aria-label="Buscar cafés"
+  >
+    <span class="search-icon" aria-hidden="true"></span>
+  </a>
+
+</div> <!-- cierra #searchLauncher -->
+
+</div> <!-- cierra .expanded-search-panel -->
+
+<div
+  id="compactSearchLauncher"
+  class="compact-search"
+  aria-label="Abrir búsqueda"
+>
+  <button
+    type="button"
+    class="compact-search__item"
+    data-open-filter="zone"
+  >
+    Zona
+  </button>
+
+  <span
+    class="compact-search__divider"
+    aria-hidden="true"
+  ></span>
+
+  <button
+    type="button"
+    class="compact-search__item"
+    data-open-filter="concept"
+  >
+    Concepto
+  </button>
+
+  <span
+    class="compact-search__divider"
+    aria-hidden="true"
+  ></span>
+
+  <button
+    type="button"
+    class="compact-search__item"
+    data-open-filter="price"
+  >
+    Precio
+  </button>
+
+  <button
+    type="button"
+    class="compact-search__icon"
+    data-open-search
+    aria-label="Abrir búsqueda"
+  >
+    <span
+      class="search-icon"
+      aria-hidden="true"
+    ></span>
+  </button>
+</div>
 
   </div>
 
-  <nav class="primary-filters">
+<nav class="main-categories" aria-label="Categorías principales">
 
-    <button class="primary-filter active" data-category="all">
-      Todo
-    </button>
+  <a
+    class="main-category main-category--active"
+    href="search.html"
+  >
+    Todo
+  </a>
 
-    <button class="primary-filter" data-category="coworking">
-      Coworking
-    </button>
+  <a
+    class="main-category"
+    href="search.html?concept=coworking"
+  >
+    Coworking
+  </a>
 
-    <button class="primary-filter" data-category="cozy">
-      Cozy
-    </button>
+  <a
+    class="main-category"
+    href="search.html?concept=cozy"
+  >
+    Cozy
+  </a>
 
-    <button class="primary-filter" data-category="sightseeing">
-      Sightseeing
-    </button>
+  <a
+    class="main-category"
+    href="search.html?concept=sightseeing"
+  >
+    Sightseeing
+  </a>
 
-  </nav>
+</nav>
 
 </header>
+
+<div
+  class="search-backdrop"
+  aria-hidden="true"
+></div>
+
   <!-- Main -->
   <main class="page-shell">
   <div class="page-layout">
@@ -91,8 +353,7 @@
     >
       <div class="section-heading">
         <div>
-          <span class="eyebrow">DESCUBRE</span>
-          <h2 id="directory-title">Cafés cerca de ti</h2>
+          <h2 id="directory-title">Explora cafés en Caracas</h2>
         </div>
 
         <p
@@ -121,60 +382,68 @@
     <aside class="events-sidebar" aria-label="Información destacada">
 
       <section class="sidebar-card events-card">
-        <div class="sidebar-card__header">
-          <div>
-            <span class="eyebrow">AGENDA</span>
-            <h2>Eventos en cafés</h2>
-          </div>
-        </div>
 
-        <div class="events-empty-state">
-          <div
-            class="events-empty-state__icon"
-            aria-hidden="true"
-          >
-            ☕
-          </div>
+  <div class="sidebar-card__header">
+    <div>
+      <span class="eyebrow">AGENDA</span>
+      <h2>Eventos en cafés</h2>
+    </div>
+  </div>
 
-          <h3>Próximamente</h3>
+  <div
+    id="eventsList"
+    class="event-list"
+  ></div>
 
-          <p>
-            Muy pronto podrás descubrir talleres, catas,
-            música en vivo y encuentros en cafés de Caracas.
-          </p>
+  <div
+    id="eventsEmptyState"
+    class="events-empty-state"
+    hidden
+  >
 
-          <span class="events-empty-state__note">
-            Solo mostraremos eventos verificados.
-          </span>
-        </div>
-      </section>
+    <span
+      class="brand__mark events-empty-state__brand-mark"
+      aria-hidden="true"
+    >
+      <span></span>
+    </span>
 
-      <section class="sidebar-card ad-card">
-        <span class="eyebrow">PRÓXIMAMENTE</span>
-        <h2>Espacio destacado</h2>
+    <h3>Próximamente</h3>
 
-        <p>
-          Publicidad para marcas, eventos y negocios
-          relacionados con el café.
-        </p>
+    <p>
+      Muy pronto podrás descubrir talleres, catas,
+      música en vivo y encuentros en cafés de Caracas.
+    </p>
 
-        <div class="ad-card__placeholder">
-          <span>Tu negocio aquí</span>
-        </div>
-      </section>
+    <span class="events-empty-state__note">
+      Solo mostraremos eventos verificados.
+    </span>
 
-      <section class="sidebar-card calendar-card">
-        <span class="eyebrow">ESTA SEMANA</span>
-        <h2>Agenda rápida</h2>
+  </div>
 
-        <div class="calendar-card__stats">
-          <span>Eventos</span>
-          <span>Talleres</span>
-          <span>Catas</span>
-        </div>
-      </section>
+</section>
 
-    </aside>
+<section class="sidebar-card ad-card">
+  <span class="eyebrow">PRÓXIMAMENTE</span>
+  <h2>Espacio destacado</h2>
+
+  <p>
+    Publicidad para marcas, eventos y negocios
+    relacionados con el café.
+  </p>
+
+  <div class="ad-card__placeholder">
+    <span>Tu negocio aquí</span>
+  </div>
+</section>
+
+<!--
+<section class="sidebar-card calendar-card">
+  ...
+</section>
+-->
+
+</aside>
   </div>
 </main>
 
@@ -183,7 +452,11 @@
     <p>Directorio de cafés en Caracas</p>
   </footer>
 
+ 
+
   <!-- JavaScript -->
-  <script src="script.js"></script>
+<script src="favorites.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>

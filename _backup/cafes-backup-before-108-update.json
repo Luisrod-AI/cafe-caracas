@@ -94,6 +94,95 @@
     "coordinate_source": "https://www.google.com/maps/place/360+Roof+Bar/data=!4m7!3m6!1s0x8c2a5903c0a01407:0x1366de35b29ced07!8m2!3d10.498804!4d-66.847837!16s%2Fg%2F11fcsmx2nt!19sChIJBxSgwANZKowRB-2csjXeZhM?authuser=0&hl=es-419&rclk=1"
   },
   {
+    "name": "Accademia del Caffè Carbone Espresso",
+    "rate": 4.8,
+    "cost": null,
+    "link": "https://www.google.com/maps/place/Accademia+del+Caff%C3%A9+Carbone+Espresso",
+    "location": "https://www.google.com/maps/place/Accademia+del+Caff%C3%A9+Carbone+Espresso/data=!4m7!3m6!1s0x8c2a59af3a07c70b:0x5035b6471abfa8f3!8m2!3d10.5014683!4d-66.8490551!16s%2Fg%2F11byyjfvbv!19sChIJC8cHOq9ZKowR86i_Gke2NVA?authuser=0&hl=es-419&rclk=1",
+    "zone": "este",
+    "image": "assets/images/cafes/accademia-del-caffe-carbone-espresso.jpg",
+    "image_source": null,
+    "image_type": "local",
+    "image_verified": true,
+    "notes": null,
+    "category": "Cafetería / café",
+    "brand": "Accademia del Caffè Carbone Espresso",
+    "branch": null,
+    "municipality": "Chacao",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/Accademia+del+Caff%C3%A9+Carbone+Espresso/data=!4m7!3m6!1s0x8c2a59af3a07c70b:0x5035b6471abfa8f3!8m2!3d10.5014683!4d-66.8490551!16s%2Fg%2F11byyjfvbv!19sChIJC8cHOq9ZKowR86i_Gke2NVA?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": null,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": {
+        "open": "14:30",
+        "close": "17:00"
+      },
+      "tuesday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "wednesday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "thursday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "friday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.5014683,
+    "longitude": -66.8490551,
+    "neighborhood": "Altamira",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Accademia%20del%20Caff%C3%A8%20Carbone%20Espresso%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/Accademia+del+Caff%C3%A9+Carbone+Espresso/data=!4m7!3m6!1s0x8c2a59af3a07c70b:0x5035b6471abfa8f3!8m2!3d10.5014683!4d-66.8490551!16s%2Fg%2F11byyjfvbv!19sChIJC8cHOq9ZKowR86i_Gke2NVA?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=Accademia%20del%20Caff%C3%A8%20Carbone%20Espresso%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": true,
+      "amenities": false,
+      "price": false
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/Accademia+del+Caff%C3%A9+Carbone+Espresso/data=!4m7!3m6!1s0x8c2a59af3a07c70b:0x5035b6471abfa8f3!8m2!3d10.5014683!4d-66.8490551!16s%2Fg%2F11byyjfvbv!19sChIJC8cHOq9ZKowR86i_Gke2NVA?authuser=0&hl=es-419&rclk=1"
+  },
+  {
     "name": "Amelie Café y Pastelería",
     "rate": 4.5,
     "cost": null,
@@ -276,6 +365,101 @@
     },
     "coordinate_accuracy": "exact_existing_map",
     "coordinate_source": "https://www.google.com/maps/place/Anella+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a598cb49942bd:0x15ec97fee150a0dd!8m2!3d10.4974959!4d-66.8553425!16s%2Fg%2F11tp3w042q!19sChIJvUKZtIxZKowR3aBQ4f6X7BU?authuser=0&hl=es-419&rclk=1"
+  },
+  {
+    "name": "Arábica",
+    "rate": 4.1,
+    "cost": null,
+    "link": "https://maps.app.goo.gl/HTf7dE1HbsEcutqbA",
+    "zone": "este",
+    "notes": "retiros en puerta - para llevar",
+    "image": "assets/images/cafes/arabica-cafe.jpg",
+    "image_source": null,
+    "image_type": "local",
+    "image_verified": true,
+    "location": "https://maps.app.goo.gl/HTf7dE1HbsEcutqbA",
+    "category": "Cafetería / café",
+    "brand": "Arábica",
+    "branch": null,
+    "municipality": "Chacao",
+    "status": "Verificado: activo",
+    "source_url": "https://maps.app.goo.gl/HTf7dE1HbsEcutqbA",
+    "source_type": "Base original",
+    "instagram": null,
+    "amenities": {
+      "wifi": true,
+      "coworking": true,
+      "cozy": true,
+      "terrace": true,
+      "pet_friendly": true,
+      "parking": true,
+      "brunch": true,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": {
+        "open": "07:00",
+        "close": "18:00"
+      },
+      "tuesday": {
+        "open": "07:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "open": "07:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "07:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "07:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "open": "07:00",
+        "close": "17:00"
+      },
+      "sunday": {
+        "open": "07:00",
+        "close": "17:00"
+      }
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=Ar%C3%A1bica%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "latitude": 10.49819,
+    "longitude": -66.84553,
+    "neighborhood": "La Campiña / Andrés Bello",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ar%C3%A1bica%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://maps.app.goo.gl/HTf7dE1HbsEcutqbA"
+        }
+      ]
+    },
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": true,
+      "amenities": true,
+      "price": false
+    },
+    "coordinate_accuracy": "exact_public_map",
+    "coordinate_source": "OpenStreetMap/Mapcarta"
   },
   {
     "name": "Arazá",
@@ -632,103 +816,100 @@
     "coordinate_accuracy": "exact_existing_map",
     "coordinate_source": "https://www.google.com/maps/place/AURORA+Caf%C3%A9+Restaurante/data=!4m7!3m6!1s0x8c2a59f1df0d8ecb:0xa904be4145749404!8m2!3d10.5025533!4d-66.843101!16s%2Fg%2F11l7105sk5!19sChIJy44N3_FZKowRBJR0RUG-BKk?authuser=0&hl=es-419&rclk=1"
   },
- {
-  "name": "Azú Pastelería",
-  "rate": 4.6,
-  "cost": null,
-  "link": "https://www.google.com/maps/search/?api=1&query=Pasteleria%20Azu%20Las%20Mercedes%20Caracas",
-  "location": "Calle Madrid, Las Mercedes, Caracas 1080, Miranda, Venezuela",
-  "zone": "este",
-  "notes": "Pastelería de autor con postres, macarons, cakes, helados y propuesta de all day brunch. Cuenta con sedes en Las Mercedes y Chacao.",
-  "image": "assets/images/cafes/azu-pasteleria.jpg",
-  "image_source": "https://www.azupasteleria.com/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Pastelería / café / brunch",
-  "brand": "Azú Pastelería",
-  "branch": null,
-  "municipality": "Baruta",
-  "status": "Verificado: activo",
-  "source_url": "https://www.azupasteleria.com/",
-  "source_type": "Website oficial / Google Maps",
-  "instagram": null,
-  "amenities": {
-    "wifi": true,
-    "coworking": null,
-    "cozy": true,
-    "terrace": true,
-    "pet_friendly": null,
-    "parking": true,
-    "brunch": true,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": "Las Mercedes",
-  "website": "https://www.azupasteleria.com/",
-  "other_locations": [
-    {
-      "name": "Azú Pastelería - Las Mercedes",
-      "google_maps": "https://www.google.com/maps/search/?api=1&query=Pasteleria%20Azu%20Las%20Mercedes%20Caracas",
-      "municipality": "Baruta",
-      "neighborhood": "Las Mercedes",
-      "zone": "este",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_accuracy": "pending_exact_map",
-      "coordinate_source": "Calle Madrid, Las Mercedes, Caracas"
+  {
+    "name": "Azu Pastelería",
+    "rate": 3.9,
+    "cost": null,
+    "link": "https://www.google.com/maps/place/Pasteler%C3%ADa+Az%C3%BA",
+    "location": "https://www.google.com/maps/place/Pasteler%C3%ADa+Az%C3%BA/data=!4m7!3m6!1s0x8c2a598044c34a93:0xfe5fdad279a997f1!8m2!3d10.4852603!4d-66.864145!16s%2Fg%2F11jm7_mm59!19sChIJk0rDRIBZKowR8ZepedLaX_4?authuser=0&hl=es-419&rclk=1",
+    "zone": "este",
+    "notes": null,
+    "category": "Cafetería / café",
+    "brand": "Azu Pastelería",
+    "branch": null,
+    "municipality": "Baruta",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/Pasteler%C3%ADa+Az%C3%BA/data=!4m7!3m6!1s0x8c2a598044c34a93:0xfe5fdad279a997f1!8m2!3d10.4852603!4d-66.864145!16s%2Fg%2F11jm7_mm59!19sChIJk0rDRIBZKowR8ZepedLaX_4?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/azu-pasteleria.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": true,
+      "terrace": true,
+      "pet_friendly": null,
+      "parking": true,
+      "brunch": true,
+      "sightseeing": null
     },
-    {
-      "name": "Azú Pastelería - Chacao",
-      "google_maps": "https://www.google.com/maps/search/?api=1&query=Azu%20Pasteleria%20Chacao%20Caracas",
-      "municipality": "Chacao",
-      "neighborhood": "Chacao",
-      "zone": "este",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_accuracy": "pending_exact_map",
-      "coordinate_source": "Sede Chacao confirmada por website oficial; pin exacto pendiente"
-    }
-  ],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-28",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "website",
-        "url": "https://www.azupasteleria.com/"
+    "hours": {
+      "monday": {
+        "open": "08:00",
+        "close": "21:00"
       },
-      {
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/search/?api=1&query=Pasteleria%20Azu%20Las%20Mercedes%20Caracas"
+      "tuesday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
       }
-    ]
+    },
+    "latitude": 10.4852603,
+    "longitude": -66.864145,
+    "neighborhood": "Las Mercedes / zona Baruta",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Azu%20Pasteler%C3%ADa%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/Pasteler%C3%ADa+Az%C3%BA/data=!4m7!3m6!1s0x8c2a598044c34a93:0xfe5fdad279a997f1!8m2!3d10.4852603!4d-66.864145!16s%2Fg%2F11jm7_mm59!19sChIJk0rDRIBZKowR8ZepedLaX_4?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=Azu%20Pasteler%C3%ADa%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": true,
+      "amenities": true,
+      "price": false
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/Pasteler%C3%ADa+Az%C3%BA/data=!4m7!3m6!1s0x8c2a598044c34a93:0xfe5fdad279a997f1!8m2!3d10.4852603!4d-66.864145!16s%2Fg%2F11jm7_mm59!19sChIJk0rDRIBZKowR8ZepedLaX_4?authuser=0&hl=es-419&rclk=1"
   },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": false,
-    "hours": false,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Las Mercedes verified; exact coordinates pending"
-},
   {
     "name": "Bajo el Reloj",
     "rate": 4.4,
@@ -1171,75 +1352,78 @@
     "coordinate_source": "https://www.google.com/maps/place/Caf%C3%A9+Billares+Nico/data=!4m7!3m6!1s0x8c2a58cd4ff2740b:0x8ff29bce535174a6!8m2!3d10.4855019!4d-66.9027965!16s%2Fg%2F11bzrgc8lq!19sChIJC3TyT81YKowRpnRRU86b8o8?authuser=0&hl=es-419&rclk=1"
   },
   {
-  "name": "Propio Coffee Roasters",
-  "rate": 4.6,
-  "cost": null,
-  "link": "https://www.google.com/maps/search/?api=1&query=Propio%20Coffee%20Roasters%20Avenida%20Principal%20El%20Pedregal%20Caracas",
-  "location": "Avenida Principal El Pedregal, Caracas 1060, Miranda, Venezuela",
-  "zone": "este",
-  "notes": "Coffee roaster y cafetería especializada en café de origen.",
-  "image": "assets/images/cafes/propio-coffee-roasters.jpg",
-  "image_source": null,
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Coffee Roaster / Café de especialidad",
-  "brand": "Propio Coffee Roasters",
-  "branch": "El Pedregal",
-  "municipality": "Chacao",
-  "status": "Verificado: activo",
-  "source_url": "https://www.google.com/maps/search/?api=1&query=Propio%20Coffee%20Roasters%20Avenida%20Principal%20El%20Pedregal%20Caracas",
-  "source_type": "Google Maps",
-  "instagram": null,
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": null,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": null
+    "name": "Café Cordillera 1730",
+    "rate": 4.6,
+    "cost": null,
+    "link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Cordillera%201730%20Caracas%20Venezuela",
+    "location": "Altamira",
+    "zone": "este",
+    "notes": "Café y comida sureña",
+    "category": "Cafetería",
+    "brand": "Café Cordillera 1730",
+    "branch": null,
+    "municipality": "Chacao",
+    "status": "Cerrado permanentemente",
+    "source_url": "https://gastro-nomia.com/blog/2025/06/11/lugares-para-tomar-cafe-en-caracas/",
+    "source_type": "Investigación web",
+    "instagram": null,
+    "image": "assets/images/cafes/cafe-cordillera-1730.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": true,
+      "terrace": true,
+      "pet_friendly": true,
+      "parking": true,
+      "brunch": null,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.4992517,
+    "longitude": -66.8487035,
+    "neighborhood": "Altamira",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Cordillera%201730%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://gastro-nomia.com/blog/2025/06/11/lugares-para-tomar-cafe-en-caracas/"
+        }
+      ]
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Cordillera%201730%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": false,
+      "amenities": true,
+      "price": false
+    },
+    "coordinate_accuracy": "approximate_neighborhood",
+    "coordinate_source": "Fallback geográfico por sector: Altamira"
   },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": "El Pedregal",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-28",
-    "confidence": "medium",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/search/?api=1&query=Propio%20Coffee%20Roasters%20Avenida%20Principal%20El%20Pedregal%20Caracas"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": false,
-    "hours": false,
-    "amenities": false,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps listing at Avenida Principal El Pedregal"
-},
   {
     "name": "Kfe en Taza",
     "rate": 4.4,
@@ -2220,6 +2404,99 @@
     "coordinate_source": "https://www.google.com/maps/place/St.+Honor%C3%A9/data=!4m7!3m6!1s0x8c2a5896efdcb60b:0x6bad564d5819f52c!8m2!3d10.4665791!4d-66.8758878!16s%2Fg%2F1ptx__pm5!19sChIJC7bc75ZYKowRLPUZWE1WrWs?authuser=0&hl=es-419&rclk=1"
   },
   {
+    "name": "Café TECC - Taller Experimental de Cocina Creativa",
+    "rate": 4.5,
+    "cost": null,
+    "link": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20TECC%20-%20Taller%20Experimental%20de%20Cocina%20Creativa%20Caracas%20Venezuela",
+    "location": "https://www.google.com/maps/place/Cafe+TECC+%28Taller+Experimental+de+Cocina+Creativa%29/data=!4m7!3m6!1s0x8c2a5900b9436ed1:0xc9c549e2eb7e8208!8m2!3d10.4983605!4d-66.8995697!16s%2Fg%2F11h7r7z624!19sChIJ0W5DuQBZKowRCIJ-6-JJxck?authuser=0&hl=es-419&rclk=1",
+    "zone": "centro",
+    "notes": null,
+    "category": "Cafetería / café",
+    "brand": "Café TECC - Taller Experimental de Cocina Creativa",
+    "branch": null,
+    "municipality": "Libertador",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/Cafe+TECC+%28Taller+Experimental+de+Cocina+Creativa%29/data=!4m7!3m6!1s0x8c2a5900b9436ed1:0xc9c549e2eb7e8208!8m2!3d10.4983605!4d-66.8995697!16s%2Fg%2F11h7r7z624!19sChIJ0W5DuQBZKowRCIJ-6-JJxck?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/cafe-tecc-taller-experimental-de-cocina-creativa.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": true,
+      "cozy": true,
+      "terrace": true,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": true,
+      "sightseeing": true
+    },
+    "hours": {
+      "monday": {
+        "closed": true
+      },
+      "tuesday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "wednesday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "thursday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "friday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "saturday": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "sunday": {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    "latitude": 10.4983605,
+    "longitude": -66.8995697,
+    "neighborhood": "Parque Central",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "centro"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20TECC%20-%20Taller%20Experimental%20de%20Cocina%20Creativa%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/Cafe+TECC+%28Taller+Experimental+de+Cocina+Creativa%29/data=!4m7!3m6!1s0x8c2a5900b9436ed1:0xc9c549e2eb7e8208!8m2!3d10.4983605!4d-66.8995697!16s%2Fg%2F11h7r7z624!19sChIJ0W5DuQBZKowRCIJ-6-JJxck?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20TECC%20-%20Taller%20Experimental%20de%20Cocina%20Creativa%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": true,
+      "amenities": true,
+      "price": false
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/Cafe+TECC+%28Taller+Experimental+de+Cocina+Creativa%29/data=!4m7!3m6!1s0x8c2a5900b9436ed1:0xc9c549e2eb7e8208!8m2!3d10.4983605!4d-66.8995697!16s%2Fg%2F11h7r7z624!19sChIJ0W5DuQBZKowRCIJ-6-JJxck?authuser=0&hl=es-419&rclk=1"
+  },
+  {
     "name": "Café Venezuela",
     "rate": 4.2,
     "cost": null,
@@ -2917,100 +3194,116 @@
     "coordinate_source": "Fallback geográfico por sector: El Cafetal"
   },
   {
-  "name": "Casa Canela - El Hatillo",
-  "rate": 4.7,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/N46szQCaSGM8U6F38",
-  "location": "El Hatillo, Caracas, Miranda, Venezuela",
-  "zone": "este",
-  "notes": "Cafetería de especialidad ubicada en el casco histórico de El Hatillo, con café venezolano, repostería, postres, helados y platos ligeros.",
-  "image": "assets/images/cafes/casa-canela-el-hatillo.jpg",
-  "image_source": null,
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Cafetería / pastelería / brunch",
-  "brand": "Casa Canela",
-  "branch": "El Hatillo",
-  "municipality": "El Hatillo",
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/N46szQCaSGM8U6F38",
-  "source_type": "Google Maps / directorio público",
-  "instagram": null,
-  "amenities": {
-    "wifi": true,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": true,
-    "brunch": true,
-    "sightseeing": true
-  },
-  "hours": {
-    "monday": {
-      "open": "08:00",
-      "close": "21:00"
+    "name": "Casa Canela - El Hatillo",
+    "rate": 4.4,
+    "cost": "10-20$",
+    "link": "https://www.google.com/maps/search/?api=1&query=Casa%20Canela%20El%20Hatillo%20Caracas%20Venezuela",
+    "location": "Casco histórico de El Hatillo",
+    "zone": "este",
+    "notes": "Café de especialidad, repostería, postres, chocolates y platos ligeros",
+    "category": "Café / pastelería",
+    "image": "assets/images/cafes/casa-canela-el-hatillo.jpg",
+    "image_source": "https://guiapana.com/restaurantes/casa-canela/",
+    "image_type": "local",
+    "image_verified": true,
+    "brand": "Casa Canela",
+    "branch": "El Hatillo",
+    "municipality": "El Hatillo",
+    "status": "Verificado: activo",
+    "source_url": "https://guiapana.com/restaurantes/casa-canela/",
+    "source_type": "Directorio público verificado",
+    "instagram": "https://www.instagram.com/casacanela.ve/",
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": null,
+      "sightseeing": null
     },
-    "tuesday": {
-      "open": "08:00",
-      "close": "21:00"
-    },
-    "wednesday": {
-      "open": "08:00",
-      "close": "21:00"
-    },
-    "thursday": {
-      "open": "08:00",
-      "close": "21:00"
-    },
-    "friday": {
-      "open": "08:00",
-      "close": "21:00"
-    },
-    "saturday": {
-      "open": "08:00",
-      "close": "21:00"
-    },
-    "sunday": {
-      "open": "08:00",
-      "close": "21:00"
-    }
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": "Pueblo de El Hatillo",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-28",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/N46szQCaSGM8U6F38"
+    "hours": {
+      "monday": {
+        "open": "08:00",
+        "close": "21:00"
       },
-      {
-        "type": "web",
-        "url": "https://guiapana.com/restaurantes/casa-canela/"
+      "tuesday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
       }
-    ]
+    },
+    "latitude": 10.423366,
+    "longitude": -66.8259065,
+    "neighborhood": "Casco Histórico de El Hatillo",
+    "website": null,
+    "other_locations": [
+      {
+        "name": "Casa Canela - Las Mercedes",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Casa%20Canela%20Las%20Mercedes%20Caracas%20Venezuela",
+        "municipality": "Baruta",
+        "neighborhood": "Las Mercedes",
+        "zone": "este",
+        "latitude": 10.4811615,
+        "longitude": -66.8586797,
+        "coordinate_accuracy": "approximate_neighborhood",
+        "coordinate_source": "Fallback geográfico por sector: Las Mercedes"
+      }
+    ],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Casa%20Canela%20-%20El%20Hatillo%20Caracas%20Venezuela"
+        },
+        {
+          "type": "instagram",
+          "url": "https://www.instagram.com/casacanela.ve/"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://guiapana.com/restaurantes/casa-canela/"
+        }
+      ]
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=Casa%20Canela%20-%20El%20Hatillo%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": true,
+      "amenities": false,
+      "price": true
+    },
+    "coordinate_accuracy": "approximate_neighborhood",
+    "coordinate_source": "Fallback geográfico por sector: El Hatillo"
   },
-  "hours_source": "https://guiapana.com/restaurantes/casa-canela/",
-  "hours_verified": "2026-08-28",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": false,
-    "hours": true,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps link verified; exact coordinates pending"
-},
   {
     "name": "Casa Canela - Las Mercedes",
     "rate": 3.7,
@@ -3668,6 +3961,100 @@
     },
     "coordinate_accuracy": "exact_existing_map",
     "coordinate_source": "https://www.google.com/maps/place/Constanza/data=!4m7!3m6!1s0x8c2af98cb5a0b457:0xb0af96f5e3fa4914!8m2!3d10.5053481!4d-66.9134777!16s%2Fg%2F11trlt17hk!19sChIJV7SgtYz5KowRFEn64_WWr7A?authuser=0&hl=es-419&rclk=1"
+  },
+  {
+    "name": "De la Casa Gourmet",
+    "rate": 4.4,
+    "cost": null,
+    "link": "https://www.google.com/maps/search/?api=1&query=De%20la%20Casa%20Gourmet%20Caracas%20Venezuela",
+    "location": "https://www.google.com/maps/place/De+La+Casa+Gourmet/data=!4m7!3m6!1s0x8c2a5974719709d7:0xe1e71bbb50dfc48f!8m2!3d10.461201!4d-66.8856833!16s%2Fg%2F11s0jbdj5_!19sChIJ1wmXcXRZKowRj8TfULsb5-E?authuser=0&hl=es-419&rclk=1",
+    "zone": "este",
+    "notes": "para llevar",
+    "category": "Cafetería / café",
+    "brand": "De la Casa Gourmet",
+    "branch": null,
+    "municipality": "Baruta",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/De+La+Casa+Gourmet/data=!4m7!3m6!1s0x8c2a5974719709d7:0xe1e71bbb50dfc48f!8m2!3d10.461201!4d-66.8856833!16s%2Fg%2F11s0jbdj5_!19sChIJ1wmXcXRZKowRj8TfULsb5-E?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/de-la-casa-gourmet.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": true,
+      "cozy": true,
+      "terrace": true,
+      "pet_friendly": null,
+      "parking": true,
+      "brunch": true,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "latitude": 10.461201,
+    "longitude": -66.8856833,
+    "neighborhood": "Bello Monte / sureste",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=De%20la%20Casa%20Gourmet%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/De+La+Casa+Gourmet/data=!4m7!3m6!1s0x8c2a5974719709d7:0xe1e71bbb50dfc48f!8m2!3d10.461201!4d-66.8856833!16s%2Fg%2F11s0jbdj5_!19sChIJ1wmXcXRZKowRj8TfULsb5-E?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=De%20la%20Casa%20Gourmet%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": true,
+      "amenities": true,
+      "price": false
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/De+La+Casa+Gourmet/data=!4m7!3m6!1s0x8c2a5974719709d7:0xe1e71bbb50dfc48f!8m2!3d10.461201!4d-66.8856833!16s%2Fg%2F11s0jbdj5_!19sChIJ1wmXcXRZKowRj8TfULsb5-E?authuser=0&hl=es-419&rclk=1"
   },
   {
     "name": "Dutch Pancakes",
@@ -4905,6 +5292,77 @@
     "coordinate_source": "Fallback geográfico por sector: Altamira"
   },
   {
+    "name": "La Canela Cafe - El Hatillo",
+    "rate": 4.5,
+    "cost": "1-5$",
+    "link": "https://www.google.com/maps/search/?api=1&query=La%20Canela%20Cafe%20El%20Hatillo%20Caracas%20Venezuela",
+    "location": "El Hatillo",
+    "zone": "este",
+    "notes": "Cafetería venezolana especializada en desayunos y empanadas artesanales",
+    "category": "Cafetería",
+    "brand": "La Canela Cafe",
+    "branch": "El Hatillo",
+    "municipality": "El Hatillo",
+    "status": "Verificado: activo",
+    "source_url": "https://guiapana.com/restaurantes/la-canela-cafe/",
+    "source_type": "Directorio público verificado",
+    "instagram": null,
+    "image": "assets/images/cafes/la-canela-cafe-el-hatillo.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": true,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": true,
+      "brunch": true,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.4226397,
+    "longitude": -66.8261395,
+    "neighborhood": "Casco Histórico de El Hatillo",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=La%20Canela%20Cafe%20-%20El%20Hatillo%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://guiapana.com/restaurantes/la-canela-cafe/"
+        }
+      ]
+    },
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": false,
+      "amenities": true,
+      "price": true
+    },
+    "coordinate_accuracy": "approximate_neighborhood",
+    "coordinate_source": "Fallback geográfico por sector: El Hatillo"
+  },
+  {
     "name": "Páramo Café",
     "rate": 4.5,
     "cost": null,
@@ -5041,6 +5499,77 @@
     },
     "coordinate_accuracy": "approximate_neighborhood",
     "coordinate_source": "Fallback geográfico por sector: Los Palos Grandes"
+  },
+  {
+    "name": "Laco Café - Café, Pizza y Más",
+    "rate": 4.5,
+    "cost": null,
+    "link": "https://www.google.com/maps/search/?api=1&query=Laco%20Caf%C3%A9%20-%20Caf%C3%A9%2C%20Pizza%20y%20M%C3%A1s%20Caracas%20Venezuela",
+    "location": "https://www.google.com/maps/place/Laco+Caf%C3%A9+-+Caf%C3%A9+-+Pizzas+-+y+M%C3%A1s/data=!4m7!3m6!1s0x8c2a5978974cf627:0x1bc4eb2804b874f2!8m2!3d10.4927938!4d-66.8582861!16s%2Fg%2F11k_zyqs1r!19sChIJJ_ZMl3hZKowR8nS4BCjrxBs?authuser=0&hl=es-419&rclk=1",
+    "zone": "este",
+    "notes": "para llevar -  domicilio",
+    "category": "Cafetería / café",
+    "brand": "Laco Café - Café, Pizza y Más",
+    "branch": null,
+    "municipality": null,
+    "status": "Pendiente de verificación",
+    "source_url": "https://www.google.com/maps/place/Laco+Caf%C3%A9+-+Caf%C3%A9+-+Pizzas+-+y+M%C3%A1s/data=!4m7!3m6!1s0x8c2a5978974cf627:0x1bc4eb2804b874f2!8m2!3d10.4927938!4d-66.8582861!16s%2Fg%2F11k_zyqs1r!19sChIJJ_ZMl3hZKowR8nS4BCjrxBs?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/laco-cafe-cafe-pizza-y-mas.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": null,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.4927938,
+    "longitude": -66.8582861,
+    "website": null,
+    "neighborhood": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Laco%20Caf%C3%A9%20-%20Caf%C3%A9%2C%20Pizza%20y%20M%C3%A1s%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/Laco+Caf%C3%A9+-+Caf%C3%A9+-+Pizzas+-+y+M%C3%A1s/data=!4m7!3m6!1s0x8c2a5978974cf627:0x1bc4eb2804b874f2!8m2!3d10.4927938!4d-66.8582861!16s%2Fg%2F11k_zyqs1r!19sChIJJ_ZMl3hZKowR8nS4BCjrxBs?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "filter_ready": {
+      "zone": true,
+      "municipality": false,
+      "coordinates": true,
+      "hours": false,
+      "amenities": false,
+      "price": false
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/Laco+Caf%C3%A9+-+Caf%C3%A9+-+Pizzas+-+y+M%C3%A1s/data=!4m7!3m6!1s0x8c2a5978974cf627:0x1bc4eb2804b874f2!8m2!3d10.4927938!4d-66.8582861!16s%2Fg%2F11k_zyqs1r!19sChIJJ_ZMl3hZKowR8nS4BCjrxBs?authuser=0&hl=es-419&rclk=1"
   },
   {
     "name": "LAKAZA",
@@ -5183,6 +5712,77 @@
     },
     "coordinate_accuracy": "approximate_neighborhood",
     "coordinate_source": "Fallback geográfico por sector: Las Mercedes"
+  },
+  {
+    "name": "Mafer Café",
+    "rate": 4.4,
+    "cost": "10-15$",
+    "link": "https://www.google.com/maps/search/?api=1&query=Mafer%20Caf%C3%A9%20Caracas%20Venezuela",
+    "location": "https://www.google.com/maps/place/Mafer+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a5f88895962bb:0xa585d2d091d1fc26!8m2!3d10.514151!4d-66.9486641!16s%2Fg%2F11gnphh21z!19sChIJu2JZiYhfKowRJvzRkdDShaU?authuser=0&hl=es-419&rclk=1",
+    "zone": "oeste",
+    "notes": null,
+    "category": "Cafetería / café",
+    "brand": "Mafer Café",
+    "branch": null,
+    "municipality": "Libertador",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/Mafer+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a5f88895962bb:0xa585d2d091d1fc26!8m2!3d10.514151!4d-66.9486641!16s%2Fg%2F11gnphh21z!19sChIJu2JZiYhfKowRJvzRkdDShaU?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/mafer-cafe.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": null,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.514151,
+    "longitude": -66.9486641,
+    "neighborhood": "Catia / oeste",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "oeste"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mafer%20Caf%C3%A9%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/Mafer+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a5f88895962bb:0xa585d2d091d1fc26!8m2!3d10.514151!4d-66.9486641!16s%2Fg%2F11gnphh21z!19sChIJu2JZiYhfKowRJvzRkdDShaU?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": false,
+      "amenities": false,
+      "price": true
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/Mafer+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a5f88895962bb:0xa585d2d091d1fc26!8m2!3d10.514151!4d-66.9486641!16s%2Fg%2F11gnphh21z!19sChIJu2JZiYhfKowRJvzRkdDShaU?authuser=0&hl=es-419&rclk=1"
   },
   {
     "name": "Manvä Natura Market",
@@ -5419,6 +6019,183 @@
     },
     "coordinate_accuracy": "approximate_neighborhood",
     "coordinate_source": "Fallback geográfico por sector: La California"
+  },
+  {
+    "name": "MoDo Caracas",
+    "rate": 4.5,
+    "cost": null,
+    "link": "https://www.google.com/maps/place/MoDo+Caracas",
+    "zone": "este",
+    "notes": null,
+    "location": "https://www.google.com/maps/place/MoDo+Caracas/data=!4m7!3m6!1s0x8c2a59ca2a096e3d:0x27b1df11a24e678a!8m2!3d10.4971113!4d-66.8544581!16s%2Fg%2F11sghn9668!19sChIJPW4JKspZKowRimdOohHfsSc?authuser=0&hl=es-419&rclk=1",
+    "category": "Cafetería / café",
+    "brand": "MoDo Caracas",
+    "branch": null,
+    "municipality": "Chacao",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/MoDo+Caracas/data=!4m7!3m6!1s0x8c2a59ca2a096e3d:0x27b1df11a24e678a!8m2!3d10.4971113!4d-66.8544581!16s%2Fg%2F11sghn9668!19sChIJPW4JKspZKowRimdOohHfsSc?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/modo-caracas.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": null,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.4971113,
+    "longitude": -66.8544581,
+    "neighborhood": "Chacao / La Castellana",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=MoDo%20Caracas%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/MoDo+Caracas/data=!4m7!3m6!1s0x8c2a59ca2a096e3d:0x27b1df11a24e678a!8m2!3d10.4971113!4d-66.8544581!16s%2Fg%2F11sghn9668!19sChIJPW4JKspZKowRimdOohHfsSc?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": false,
+      "amenities": false,
+      "price": false
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/MoDo+Caracas/data=!4m7!3m6!1s0x8c2a59ca2a096e3d:0x27b1df11a24e678a!8m2!3d10.4971113!4d-66.8544581!16s%2Fg%2F11sghn9668!19sChIJPW4JKspZKowRimdOohHfsSc?authuser=0&hl=es-419&rclk=1"
+  },
+  {
+    "name": "Moka Deli Café",
+    "rate": 4.5,
+    "cost": "10-15$",
+    "link": "https://www.google.com/maps/search/?api=1&query=Moka%20Deli%20Caf%C3%A9%20Caracas%20Venezuela",
+    "location": "https://maps.app.goo.gl/EvEK3eDHzHQ4q43i7",
+    "zone": "centro",
+    "notes": "para llevar -  domicilio",
+    "category": "Cafetería / café",
+    "brand": "Moka Deli Café",
+    "branch": null,
+    "municipality": "Libertador",
+    "status": "Verificado: activo",
+    "source_url": "https://maps.app.goo.gl/EvEK3eDHzHQ4q43i7",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/moka-deli-cafe.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": null,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "latitude": 10.4943562,
+    "longitude": -66.874577,
+    "neighborhood": "Sabana Grande",
+    "website": null,
+    "other_locations": [
+      {
+        "name": "Moka Deli Café - La Urbina",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Moka%20Deli%20Cafe%20La%20Urbina%20Caracas%20Venezuela",
+        "municipality": "Sucre",
+        "neighborhood": "La Urbina",
+        "zone": "este",
+        "latitude": 10.49615,
+        "longitude": -66.8084369,
+        "coordinate_accuracy": "approximate_neighborhood",
+        "coordinate_source": "Fallback geográfico por sector: La Urbina"
+      }
+    ],
+    "zones": [
+      "centro"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Moka%20Deli%20Caf%C3%A9%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://maps.app.goo.gl/EvEK3eDHzHQ4q43i7"
+        }
+      ]
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=Moka%20Deli%20Caf%C3%A9%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": true,
+      "amenities": false,
+      "price": true
+    },
+    "coordinate_accuracy": "approximate_neighborhood",
+    "coordinate_source": "Fallback geográfico por sector: Sabana Grande"
   },
   {
     "name": "Mola Caracas",
@@ -5726,6 +6503,77 @@
     },
     "coordinate_accuracy": "exact_existing_map",
     "coordinate_source": "https://www.google.com/maps/place/Origen/data=!4m7!3m6!1s0x8c2a596ac046562f:0x6b548e6e42b7dcdb!8m2!3d10.5044821!4d-66.900877!16s%2Fg%2F11ks1cfqx4!19sChIJL1ZGwGpZKowR29y3Qm6OVGs?authuser=0&hl=es-419&rclk=1"
+  },
+  {
+    "name": "Orleon Café",
+    "rate": 4.3,
+    "cost": "10-15$",
+    "link": "https://www.google.com/maps/place/Orleon+Caf%C3%A9",
+    "zone": "este",
+    "notes": null,
+    "location": "https://www.google.com/maps/place/Orleon+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a59b034e60b9f:0xab16557118ef73e4!8m2!3d10.5001816!4d-66.8426069!16s%2Fg%2F11bw5m95kf!19sChIJnwvmNLBZKowR5HPvGHFVFqs?authuser=0&hl=es-419&rclk=1",
+    "category": "Cafetería / café",
+    "brand": "Orleon Café",
+    "branch": null,
+    "municipality": "Chacao",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/Orleon+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a59b034e60b9f:0xab16557118ef73e4!8m2!3d10.5001816!4d-66.8426069!16s%2Fg%2F11bw5m95kf!19sChIJnwvmNLBZKowR5HPvGHFVFqs?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/orleon-cafe.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": true,
+      "terrace": true,
+      "pet_friendly": null,
+      "parking": true,
+      "brunch": true,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.5001816,
+    "longitude": -66.8426069,
+    "neighborhood": "Altamira",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Orleon%20Caf%C3%A9%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/Orleon+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a59b034e60b9f:0xab16557118ef73e4!8m2!3d10.5001816!4d-66.8426069!16s%2Fg%2F11bw5m95kf!19sChIJnwvmNLBZKowR5HPvGHFVFqs?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": false,
+      "amenities": true,
+      "price": true
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/Orleon+Caf%C3%A9/data=!4m7!3m6!1s0x8c2a59b034e60b9f:0xab16557118ef73e4!8m2!3d10.5001816!4d-66.8426069!16s%2Fg%2F11bw5m95kf!19sChIJnwvmNLBZKowR5HPvGHFVFqs?authuser=0&hl=es-419&rclk=1"
   },
   {
     "name": "Oro Café",
@@ -6106,6 +6954,171 @@
     "coordinate_source": "Fallback geográfico por sector: El Hatillo"
   },
   {
+    "name": "Pink Elephant",
+    "rate": 4.5,
+    "cost": "14$",
+    "link": "https://www.google.com/maps/search/?api=1&query=Pink%20Elephant%20Caracas%20Venezuela",
+    "location": "El Hatillo",
+    "zone": "este",
+    "notes": "Café, brunch y postres",
+    "category": "Café / pastelería",
+    "brand": "Pink Elephant",
+    "branch": null,
+    "municipality": "Baruta",
+    "status": "Verificado: activo",
+    "source_url": "https://guiapana.com/restaurantes/cafeteria/",
+    "source_type": "Investigación web",
+    "instagram": null,
+    "image": "assets/images/cafes/pink-elephant.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": true,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": {
+        "open": "07:30",
+        "close": "19:30"
+      },
+      "tuesday": {
+        "open": "07:30",
+        "close": "19:30"
+      },
+      "wednesday": {
+        "open": "07:30",
+        "close": "19:30"
+      },
+      "thursday": {
+        "open": "07:30",
+        "close": "19:30"
+      },
+      "friday": {
+        "open": "07:30",
+        "close": "19:30"
+      },
+      "saturday": {
+        "open": "07:30",
+        "close": "19:30"
+      },
+      "sunday": {
+        "open": "07:30",
+        "close": "19:30"
+      }
+    },
+    "latitude": 10.4237591,
+    "longitude": -66.8249091,
+    "neighborhood": "Colinas de Tamanaco",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Pink%20Elephant%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://guiapana.com/restaurantes/cafeteria/"
+        }
+      ]
+    },
+    "hours_source": "https://www.google.com/maps/search/?api=1&query=Pink%20Elephant%20Caracas%20Venezuela",
+    "hours_verified": "2026-08-18",
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": true,
+      "amenities": true,
+      "price": true
+    },
+    "coordinate_accuracy": "approximate_neighborhood",
+    "coordinate_source": "Fallback geográfico por sector: El Hatillo"
+  },
+  {
+    "name": "Pizza Caracas - Pizza Café",
+    "rate": 4.4,
+    "cost": "5-10$",
+    "link": "https://www.google.com/maps/search/?api=1&query=Pizza%20Caracas%20-%20Pizza%20Caf%C3%A9%20Caracas%20Venezuela",
+    "location": "https://www.google.com/maps/place/Pizza+Caracas+Pizza+Caf%C3%A9+palos+grandes/data=!4m7!3m6!1s0x8c2a59307b6c9c27:0xed1bacd9a76ecfeb!8m2!3d10.4995834!4d-66.8450283!16s%2Fg%2F11h3l0ljy0!19sChIJJ5xsezBZKowR689up9msG-0?authuser=0&hl=es-419&rclk=1",
+    "zone": "este",
+    "notes": "domicilio",
+    "category": "Cafetería / café",
+    "brand": "Pizza Caracas - Pizza Café",
+    "branch": null,
+    "municipality": "Chacao",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/Pizza+Caracas+Pizza+Caf%C3%A9+palos+grandes/data=!4m7!3m6!1s0x8c2a59307b6c9c27:0xed1bacd9a76ecfeb!8m2!3d10.4995834!4d-66.8450283!16s%2Fg%2F11h3l0ljy0!19sChIJJ5xsezBZKowR689up9msG-0?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/pizza-caracas-pizza-cafe.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": null,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.4995834,
+    "longitude": -66.8450283,
+    "neighborhood": "Los Palos Grandes",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Pizza%20Caracas%20-%20Pizza%20Caf%C3%A9%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/Pizza+Caracas+Pizza+Caf%C3%A9+palos+grandes/data=!4m7!3m6!1s0x8c2a59307b6c9c27:0xed1bacd9a76ecfeb!8m2!3d10.4995834!4d-66.8450283!16s%2Fg%2F11h3l0ljy0!19sChIJJ5xsezBZKowR689up9msG-0?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": false,
+      "amenities": false,
+      "price": true
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/Pizza+Caracas+Pizza+Caf%C3%A9+palos+grandes/data=!4m7!3m6!1s0x8c2a59307b6c9c27:0xed1bacd9a76ecfeb!8m2!3d10.4995834!4d-66.8450283!16s%2Fg%2F11h3l0ljy0!19sChIJJ5xsezBZKowR689up9msG-0?authuser=0&hl=es-419&rclk=1"
+  },
+  {
     "name": "Quadro Café",
     "rate": 4.5,
     "cost": "5-10$",
@@ -6246,6 +7259,77 @@
     },
     "coordinate_accuracy": "approximate_neighborhood",
     "coordinate_source": "Fallback geográfico por sector: municipality:Caracas"
+  },
+  {
+    "name": "Reader's Café",
+    "rate": 4.7,
+    "cost": "15-20$",
+    "link": "https://www.google.com/maps/place/Reader%E2%80%99s+Cafe",
+    "zone": "este",
+    "notes": null,
+    "location": "https://www.google.com/maps/place/Reader%E2%80%99s+Cafe/data=!4m7!3m6!1s0x8c2a59aeabb282eb:0xeff16a115e54c3a6!8m2!3d10.4985149!4d-66.8498805!16s%2Fg%2F11gcz39gm8!19sChIJ64Kyq65ZKowRpsNUXhFq8e8?authuser=0&hl=es-419&rclk=1",
+    "category": "Cafetería / café",
+    "brand": "Reader's Café",
+    "branch": null,
+    "municipality": "Chacao",
+    "status": "Verificado: activo",
+    "source_url": "https://www.google.com/maps/place/Reader%E2%80%99s+Cafe/data=!4m7!3m6!1s0x8c2a59aeabb282eb:0xeff16a115e54c3a6!8m2!3d10.4985149!4d-66.8498805!16s%2Fg%2F11gcz39gm8!19sChIJ64Kyq65ZKowRpsNUXhFq8e8?authuser=0&hl=es-419&rclk=1",
+    "source_type": "Base original",
+    "instagram": null,
+    "image": "assets/images/cafes/reader-s-cafe.jpg",
+    "image_type": "local",
+    "image_verified": true,
+    "amenities": {
+      "wifi": null,
+      "coworking": null,
+      "cozy": null,
+      "terrace": null,
+      "pet_friendly": null,
+      "parking": null,
+      "brunch": null,
+      "sightseeing": null
+    },
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    },
+    "latitude": 10.4985149,
+    "longitude": -66.8498805,
+    "neighborhood": "La Castellana",
+    "website": null,
+    "other_locations": [],
+    "zones": [
+      "este"
+    ],
+    "research": {
+      "verified_at": "2026-08-18",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "google_maps",
+          "url": "https://www.google.com/maps/search/?api=1&query=Reader%27s%20Caf%C3%A9%20Caracas%20Venezuela"
+        },
+        {
+          "type": "existing_source",
+          "url": "https://www.google.com/maps/place/Reader%E2%80%99s+Cafe/data=!4m7!3m6!1s0x8c2a59aeabb282eb:0xeff16a115e54c3a6!8m2!3d10.4985149!4d-66.8498805!16s%2Fg%2F11gcz39gm8!19sChIJ64Kyq65ZKowRpsNUXhFq8e8?authuser=0&hl=es-419&rclk=1"
+        }
+      ]
+    },
+    "filter_ready": {
+      "zone": true,
+      "municipality": true,
+      "coordinates": true,
+      "hours": false,
+      "amenities": false,
+      "price": true
+    },
+    "coordinate_accuracy": "exact_existing_map",
+    "coordinate_source": "https://www.google.com/maps/place/Reader%E2%80%99s+Cafe/data=!4m7!3m6!1s0x8c2a59aeabb282eb:0xeff16a115e54c3a6!8m2!3d10.4985149!4d-66.8498805!16s%2Fg%2F11gcz39gm8!19sChIJ64Kyq65ZKowRpsNUXhFq8e8?authuser=0&hl=es-419&rclk=1"
   },
   {
     "name": "Saggezza",
@@ -7271,1451 +8355,5 @@
     },
     "coordinate_accuracy": "approximate_neighborhood",
     "coordinate_source": "Fallback geográfico por sector: Los Palos Grandes"
-  },
-  {
-  "name": "Neo Café",
-  "rate": 5.0,
-  "cost": null,
-  "link": "https://www.google.com/maps/search/?api=1&query=Neo%20Caf%C3%A9%20Centro%20San%20Ignacio%20Caracas%20Venezuela",
-  "location": "Centro San Ignacio, Sector Hollywood, Local HOLL-130, Nivel Jardín, La Castellana, Caracas",
-  "zone": "este",
-  "notes": "Cafetería ubicada dentro del Centro San Ignacio.",
-  "image": "assets/images/cafes/neo-cafe.jpg",
-  "image_source": null,
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Cafetería / café",
-  "brand": "Neo Café",
-  "branch": "Centro San Ignacio",
-  "municipality": "Chacao",
-  "status": "Verificado: activo",
-  "source_url": "https://centrosanignacio.com/",
-  "source_type": "Directorio oficial",
-  "instagram": null,
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": true,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": 10.499,
-  "longitude": -66.850,
-  "neighborhood": "La Castellana",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "official_directory",
-        "url": "https://centrosanignacio.com/"
-      },
-      {
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/search/?api=1&query=Neo%20Caf%C3%A9%20Centro%20San%20Ignacio%20Caracas%20Venezuela"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": false,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "approximate_venue",
-  "coordinate_source": "Centro San Ignacio, La Castellana"
-},
-{
-  "name": "El Jardín",
-  "rate": null,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/mzeNvdSHuQkuUY1g8?g_st=aw",
-  "location": "Los Palos Grandes, Caracas, Miranda",
-  "zone": "este",
-  "notes": "Cafetería ubicada en Los Palos Grandes.",
-  "image": "assets/images/cafes/el-jardin.jpg",
-  "image_source": "https://www.instagram.com/eljardincb/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Cafetería / café",
-  "brand": "El Jardín",
-  "branch": "Los Palos Grandes",
-  "municipality": "Chacao",
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/mzeNvdSHuQkuUY1g8?g_st=aw",
-  "source_type": "Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/eljardincb/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": true,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": 10.5002,
-  "longitude": -66.8446,
-  "neighborhood": "Los Palos Grandes",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "medium",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/mzeNvdSHuQkuUY1g8?g_st=aw"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/eljardincb/"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": false,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "approximate_neighborhood",
-  "coordinate_source": "Los Palos Grandes, Chacao"
-},
-{
-  "name": "JJJardín Caracas",
-  "rate": null,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/BabUUNdPmY1ocjFw9?g_st=aw",
-  "location": "Las Mercedes, Caracas, Miranda",
-  "zone": "este",
-  "notes": "Cafetería ubicada en Las Mercedes.",
-  "image": "assets/images/cafes/jjjardin-caracas.jpg",
-  "image_source": "https://www.instagram.com/jjjardin_caracas/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Cafetería / café",
-  "brand": "JJJardín Caracas",
-  "branch": "Las Mercedes",
-  "municipality": "Baruta",
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/BabUUNdPmY1ocjFw9?g_st=aw",
-  "source_type": "Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/jjjardin_caracas/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": {
-      "open": "07:00",
-      "close": "21:00"
-    },
-    "tuesday": {
-      "open": "07:00",
-      "close": "21:00"
-    },
-    "wednesday": {
-      "open": "07:00",
-      "close": "21:00"
-    },
-    "thursday": {
-      "open": "07:00",
-      "close": "21:00"
-    },
-    "friday": {
-      "open": "07:00",
-      "close": "21:00"
-    },
-    "saturday": {
-      "open": "07:00",
-      "close": "21:00"
-    },
-    "sunday": {
-      "open": "07:00",
-      "close": "21:00"
-    }
-  },
-  "latitude": 10.482,
-  "longitude": -66.857,
-  "neighborhood": "Las Mercedes",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/BabUUNdPmY1ocjFw9?g_st=aw"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/jjjardin_caracas/"
-      },
-      {
-        "type": "web",
-        "url": "https://noticiaalminuto.com/reserva-obligatoria-los-restaurantes-nuevos-en-caracas-en-el-2025-que-no-puede-dejar-de-visitar/"
-      }
-    ]
-  },
-  "hours_source": "https://noticiaalminuto.com/reserva-obligatoria-los-restaurantes-nuevos-en-caracas-en-el-2025-que-no-puede-dejar-de-visitar/",
-  "hours_verified": "2026-08-27",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": true,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "approximate_neighborhood",
-  "coordinate_source": "Las Mercedes, Baruta"
-},
-{
-  "name": "Mingus",
-  "rate": null,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/sQSu7mcdBYFXazeN9?g_st=aw",
-  "location": "Casco histórico de Chacao, Caracas, Miranda",
-  "zone": "este",
-  "notes": "Café bar y sala de escucha inspirada en los listening bars japoneses. Ofrece café, matcha, licores, comida y una selección musical en sistema Hi-Fi.",
-  "image": "assets/images/cafes/mingus.jpg",
-  "image_source": "https://www.instagram.com/__mingus/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Café / bar / listening room",
-  "brand": "Mingus",
-  "branch": "Chacao",
-  "municipality": "Chacao",
-  "status": "Verificado: activo",
-  "source_url": "https://www.minguscafebar.com/",
-  "source_type": "Website oficial / Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/__mingus/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": true
-  },
-  "hours": {
-    "monday": {
-      "open": "08:00",
-      "close": "21:00"
-    },
-    "tuesday": {
-      "open": "08:00",
-      "close": "21:00"
-    },
-    "wednesday": {
-      "open": "08:00",
-      "close": "21:00"
-    },
-    "thursday": {
-      "open": "08:00",
-      "close": "01:30"
-    },
-    "friday": {
-      "open": "08:00",
-      "close": "01:30"
-    },
-    "saturday": {
-      "open": "08:00",
-      "close": "01:30"
-    },
-    "sunday": {
-      "open": "08:00",
-      "close": "21:00"
-    }
-  },
-  "latitude": 10.494,
-  "longitude": -66.853,
-  "neighborhood": "Casco histórico de Chacao",
-  "website": "https://www.minguscafebar.com/",
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "official_website",
-        "url": "https://www.minguscafebar.com/"
-      },
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/sQSu7mcdBYFXazeN9?g_st=aw"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/__mingus/"
-      }
-    ]
-  },
-  "hours_source": "https://www.minguscafebar.com/concepto",
-  "hours_verified": "2026-08-27",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": true,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "approximate_neighborhood",
-  "coordinate_source": "Casco histórico de Chacao"
-},
-{
-  "name": "Pink Elephant",
-  "rate": 4.9,
-  "cost": null,
-  "link": "https://www.google.com/maps/search/?api=1&query=Pink%20Elephant%20Caracas%20Venezuela",
-  "location": "Caracas, Venezuela",
-  "zone": "este",
-  "notes": "Marca con múltiples sedes en Caracas. El menú es compartido o sustancialmente similar entre ubicaciones.",
-  "image": "assets/images/cafes/pink-elephant.jpg",
-  "image_source": "https://www.instagram.com/pinkelephantccs/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Café / brunch / pastelería",
-  "brand": "Pink Elephant",
-  "branch": null,
-  "municipality": null,
-  "status": "Verificado: activo",
-  "source_url": "https://www.instagram.com/pinkelephantccs/",
-  "source_type": "Instagram oficial / Google Maps",
-  "instagram": "https://www.instagram.com/pinkelephantccs/",
-  "amenities": {
-    "wifi": true,
-    "coworking": null,
-    "cozy": true,
-    "terrace": true,
-    "pet_friendly": true,
-    "parking": true,
-    "brunch": true,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": 10.4219,
-  "longitude": -66.8258,
-  "neighborhood": "El Hatillo",
-  "website": null,
-  "other_locations": [
-    {
-      "name": "Pink Elephant - El Hatillo",
-      "google_maps": "https://www.google.com/maps/search/?api=1&query=Pink%20Elephant%20El%20Hatillo%20Caracas%20Venezuela",
-      "municipality": "El Hatillo",
-      "neighborhood": "El Hatillo",
-      "zone": "este",
-      "latitude": 10.4219,
-      "longitude": -66.8258,
-      "coordinate_accuracy": "approximate_venue",
-      "coordinate_source": "La Muralla Gourmet, El Hatillo"
-    },
-    {
-      "name": "Pink Elephant - San Román",
-      "google_maps": "https://www.google.com/maps/search/?api=1&query=Pink%20Elephant%20San%20Roman%20Caracas%20Venezuela",
-      "municipality": "Baruta",
-      "neighborhood": "San Román",
-      "zone": "este",
-      "latitude": 10.4675,
-      "longitude": -66.8525,
-      "coordinate_accuracy": "approximate_neighborhood",
-      "coordinate_source": "San Román, Baruta"
-    }
-  ],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/pinkelephantccs/"
-      },
-      {
-        "type": "google_maps",
-        "url": "https://www.google.com/maps/search/?api=1&query=Pink%20Elephant%20Caracas%20Venezuela"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": false,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "approximate_venue",
-  "coordinate_source": "Primary location reference: El Hatillo"
-},
-{
-  "name": "Honesto CCS",
-  "rate": 3.3,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/g6ANzoZ8NEMWhp9SA?g_st=aw",
-  "location": "Av. Ávila, La Castellana, Caracas 1060, Distrito Capital, Venezuela",
-  "zone": "este",
-  "notes": "Café y restaurante de enfoque saludable con desayunos, brunch, almuerzos, postres y opciones para comer durante todo el día.",
-  "image": "assets/images/cafes/honesto-ccs.jpg",
-  "image_source": "https://www.instagram.com/honestoccs/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Café / restaurante saludable / brunch",
-  "brand": "Honesto CCS",
-  "branch": "La Castellana",
-  "municipality": "Chacao",
-  "status": "Verificado: activo",
-  "source_url": "https://guiapana.com/restaurantes/honesto-cafe-restaurant/",
-  "source_type": "Directorio público verificado / Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/honestoccs/",
-  "amenities": {
-    "wifi": true,
-    "coworking": null,
-    "cozy": true,
-    "terrace": true,
-    "pet_friendly": null,
-    "parking": true,
-    "brunch": true,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": {
-      "open": "08:00",
-      "close": "22:00"
-    },
-    "tuesday": {
-      "open": "08:00",
-      "close": "22:00"
-    },
-    "wednesday": {
-      "open": "08:00",
-      "close": "22:00"
-    },
-    "thursday": {
-      "open": "08:00",
-      "close": "22:00"
-    },
-    "friday": {
-      "open": "08:00",
-      "close": "22:00"
-    },
-    "saturday": {
-      "open": "08:00",
-      "close": "22:00"
-    },
-    "sunday": {
-      "open": "09:00",
-      "close": "20:00"
-    }
-  },
-  "latitude": 10.499,
-  "longitude": -66.849,
-  "neighborhood": "La Castellana",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/g6ANzoZ8NEMWhp9SA?g_st=aw"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/honestoccs/"
-      },
-      {
-        "type": "web",
-        "url": "https://guiapana.com/restaurantes/honesto-cafe-restaurant/"
-      }
-    ]
-  },
-  "hours_source": "https://guiapana.com/restaurantes/honesto-cafe-restaurant/",
-  "hours_verified": "2026-08-27",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": true,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "approximate_neighborhood",
-  "coordinate_source": "Av. Ávila, La Castellana"
-},
-{
-  "name": "La Piccola Café",
-  "rate": null,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/Qq7ddVno6t4gZoSL9?g_st=aw",
-  "location": "Caracas, Venezuela",
-  "zone": "este",
-  "notes": "Cafetería en Caracas. Ubicación verificada mediante Google Maps e Instagram oficial.",
-  "image": "assets/images/cafes/la-piccola-cafe.jpg",
-  "image_source": "https://www.instagram.com/lapiccola.cafe/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Cafetería / café",
-  "brand": "La Piccola Café",
-  "branch": null,
-  "municipality": null,
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/Qq7ddVno6t4gZoSL9?g_st=aw",
-  "source_type": "Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/lapiccola.cafe/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": null,
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "medium",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/Qq7ddVno6t4gZoSL9?g_st=aw"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/lapiccola.cafe/"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": false,
-    "coordinates": false,
-    "hours": false,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps short link provided; exact coordinates pending extraction"
-},
-{
-  "name": "Poke Molokai",
-  "rate": 4.5,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/QKn4zvzS7GjcYsvP9?g_st=aw",
-  "location": "C.C. San Luis, Calle Comercio, piso 1, San Luis, Caracas, Miranda",
-  "zone": "este",
-  "notes": "Restaurante especializado en poke bowls, burritos y cocina fresca de inspiración hawaiana. Cuenta con varias sedes en Caracas.",
-  "image": "assets/images/cafes/poke-molokai.jpg",
-  "image_source": "https://www.instagram.com/pokemolokai/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Poke / saludable / fusión",
-  "brand": "Poke Molokai",
-  "branch": null,
-  "municipality": "Baruta",
-  "status": "Verificado: activo",
-  "source_url": "https://guiapana.com/restaurantes/poke-molokai/",
-  "source_type": "Directorio público verificado / Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/pokemolokai/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": true,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": {
-      "open": "11:00",
-      "close": "21:45"
-    },
-    "tuesday": {
-      "open": "11:00",
-      "close": "21:45"
-    },
-    "wednesday": {
-      "open": "11:00",
-      "close": "21:45"
-    },
-    "thursday": {
-      "open": "11:00",
-      "close": "21:45"
-    },
-    "friday": {
-      "open": "11:00",
-      "close": "21:45"
-    },
-    "saturday": {
-      "open": "11:00",
-      "close": "21:45"
-    },
-    "sunday": {
-      "open": "11:00",
-      "close": "21:45"
-    }
-  },
-  "latitude": 10.46837,
-  "longitude": -66.84262,
-  "neighborhood": "San Luis",
-  "website": null,
-  "other_locations": [
-    {
-      "name": "Poke Molokai - San Luis",
-      "google_maps": "https://maps.app.goo.gl/QKn4zvzS7GjcYsvP9?g_st=aw",
-      "municipality": "Baruta",
-      "neighborhood": "San Luis",
-      "zone": "este",
-      "latitude": 10.46837,
-      "longitude": -66.84262,
-      "coordinate_accuracy": "exact_public_map",
-      "coordinate_source": "OpenStreetMap / Mapcarta"
-    },
-    {
-      "name": "Poke Molokai - Caracas Campus",
-      "google_maps": "https://maps.app.goo.gl/36APobEFCBKHhXh89?g_st=ac",
-      "municipality": "Baruta",
-      "neighborhood": "La Trinidad",
-      "zone": "este",
-      "latitude": null,
-      "longitude": null,
-      "coordinate_accuracy": "pending_exact_map",
-      "coordinate_source": "Caracas Campus, Calle Altagracia, La Trinidad"
-    }
-  ],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/QKn4zvzS7GjcYsvP9?g_st=aw"
-      },
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/36APobEFCBKHhXh89?g_st=ac"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/pokemolokai/"
-      },
-      {
-        "type": "web",
-        "url": "https://guiapana.com/restaurantes/poke-molokai/"
-      },
-      {
-        "type": "web",
-        "url": "https://elestimulo.com/bienmesabe/lanzamientos/2026-05-18/la-trinidad-food-hall-caracas-campus/"
-      }
-    ]
-  },
-  "hours_source": "https://guiapana.com/restaurantes/poke-molokai/",
-  "hours_verified": "2026-08-27",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": true,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "exact_public_map",
-  "coordinate_source": "OpenStreetMap / Mapcarta"
-},
-{
-  "name": "Glace Gelato Caffè",
-  "rate": null,
-  "cost": null,
-  "link": "https://share.google/sAKjt2hKKoF1mzpl5",
-  "location": "Caracas, Venezuela",
-  "zone": "este",
-  "notes": "Gelatería y cafetería artesanal en Caracas.",
-  "image": "assets/images/cafes/glace-gelato-caffe.jpg",
-  "image_source": "https://www.instagram.com/glacegelatocaffe/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Gelatería / cafetería / postres",
-  "brand": "Glace Gelato Caffè",
-  "branch": null,
-  "municipality": null,
-  "status": "Verificado: activo",
-  "source_url": "https://www.instagram.com/glacegelatocaffe/",
-  "source_type": "Instagram oficial / Google Maps",
-  "instagram": "https://www.instagram.com/glacegelatocaffe/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": null,
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "medium",
-    "sources": [
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/glacegelatocaffe/"
-      },
-      {
-        "type": "google_maps",
-        "url": "https://share.google/sAKjt2hKKoF1mzpl5"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": false,
-    "coordinates": false,
-    "hours": false,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps share link provided; exact coordinates pending verification"
-},
-{
-  "name": "Mythos",
-  "rate": null,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/HLqR161cZCLVFp4e9?g_st=aw",
-  "location": "Av. Blandín con Santa Teresa de Jesús, C.C. San Ignacio, Nivel Hollywood, La Castellana, Caracas",
-  "zone": "este",
-  "notes": "Bar restaurante de comida italiana con pizzas y delivery, ubicado en el Centro San Ignacio.",
-  "image": "assets/images/cafes/mythos.jpg",
-  "image_source": "https://www.instagram.com/mythos.ve/",
-  "image_type": "local",
-  "image_verified": false,
-  "category": "Restaurante italiano / café / bar",
-  "brand": "Mythos",
-  "branch": "Centro San Ignacio",
-  "municipality": "Chacao",
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/HLqR161cZCLVFp4e9?g_st=aw",
-  "source_type": "Google Maps / Instagram oficial / directorio público",
-  "instagram": "https://www.instagram.com/mythos.ve/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": true,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": {
-      "open": "11:30",
-      "close": "22:00"
-    },
-    "tuesday": {
-      "open": "11:30",
-      "close": "22:00"
-    },
-    "wednesday": {
-      "open": "11:30",
-      "close": "22:00"
-    },
-    "thursday": {
-      "open": "11:30",
-      "close": "22:00"
-    },
-    "friday": {
-      "open": "11:30",
-      "close": "22:00"
-    },
-    "saturday": {
-      "open": "11:30",
-      "close": "22:00"
-    },
-    "sunday": null
-  },
-  "latitude": 10.499,
-  "longitude": -66.850,
-  "neighborhood": "La Castellana",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-27",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/HLqR161cZCLVFp4e9?g_st=aw"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/mythos.ve/"
-      },
-      {
-        "type": "web",
-        "url": "https://infoguia.com/ct.asp?cat=509&ciud=41&key=restaurantes-la-castellana-caracas&urb=64"
-      }
-    ]
-  },
-  "hours_source": "https://infoguia.com/ct.asp?cat=509&ciud=41&key=restaurantes-la-castellana-caracas&urb=64",
-  "hours_verified": "2026-08-27",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": true,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "approximate_venue",
-  "coordinate_source": "Centro San Ignacio, La Castellana"
-},
-{
-  "name": "Matcha Chá",
-  "rate": 4.7,
-  "cost": "5-10$",
-  "link": "https://maps.app.goo.gl/EPujNU9ecwn3pcCV9?g_st=ac",
-  "location": "Local Multimarca, Avenida Principal de Las Mercedes, a 50 mts de la Bomba Texaco, Caracas 1060, Miranda, Venezuela",
-  "zone": "este",
-  "notes": "Matcha bar y café especializado en matcha, bebidas funcionales, café, proteína y opciones ligeras. Cuenta con opciones veganas y vegetarianas.",
-  "image": "assets/images/cafes/matcha-cha.jpg",
-  "image_source": "https://www.instagram.com/matchacha.ccs/",
-  "image_type": "local",
-  "image_verified": true,
-  "category": "Matcha bar / cafetería / saludable",
-  "brand": "Matcha Chá",
-  "branch": "Las Mercedes",
-  "municipality": "Baruta",
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/EPujNU9ecwn3pcCV9?g_st=ac",
-  "source_type": "Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/matchacha.ccs/",
-  "amenities": {
-    "wifi": true,
-    "coworking": true,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": true,
-    "parking": true,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "tuesday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "wednesday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "thursday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "friday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "saturday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "sunday": {
-      "open": "08:00",
-      "close": "20:00"
-    }
-  },
-  "latitude": 10.4840707,
-  "longitude": -66.8640707,
-  "neighborhood": "Las Mercedes",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-31",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/EPujNU9ecwn3pcCV9?g_st=ac"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/matchacha.ccs/"
-      }
-    ]
-  },
-  "hours_source": "https://maps.app.goo.gl/EPujNU9ecwn3pcCV9?g_st=ac",
-  "hours_verified": "2026-08-31",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": true,
-    "hours": true,
-    "amenities": true,
-    "price": true
-  },
-  "coordinate_accuracy": "approximate_venue",
-  "coordinate_source": "Google Maps identifies Matcha Chá at Local Multimarca on Avenida Principal de Las Mercedes; coordinates use the verified Multimarca venue reference."
-},
-{
-  "name": "Arábica",
-  "rate": 4.1,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/nEfKF84Br9sKHTkA7",
-  "location": "Av. Andrés Bello, Multicentro Empresarial Los Palos Grandes, Caracas, Venezuela",
-  "zone": "este",
-  "notes": "Cafetería y restaurante especializada en café venezolano orgánico y de especialidad, tostado por la casa. Ofrece desayunos, almuerzos, postres, bebidas frías y calientes.",
-  "image": "assets/images/cafes/arabica-cafe.jpg",
-  "image_source": null,
-  "image_type": "local",
-  "image_verified": true,
-  "category": "Cafetería / restaurante / café de especialidad",
-  "brand": "Arábica",
-  "branch": "Los Palos Grandes",
-  "municipality": "Chacao",
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/nEfKF84Br9sKHTkA7",
-  "source_type": "Google Maps / menú oficial",
-  "instagram": "https://www.instagram.com/tucafearabica/",
-  "amenities": {
-    "wifi": true,
-    "coworking": true,
-    "cozy": true,
-    "terrace": true,
-    "pet_friendly": null,
-    "parking": true,
-    "brunch": true,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": {
-      "open": "07:00",
-      "close": "18:00"
-    },
-    "tuesday": {
-      "open": "07:00",
-      "close": "18:00"
-    },
-    "wednesday": {
-      "open": "07:00",
-      "close": "18:00"
-    },
-    "thursday": {
-      "open": "07:00",
-      "close": "18:00"
-    },
-    "friday": {
-      "open": "07:00",
-      "close": "18:00"
-    },
-    "saturday": {
-      "open": "07:00",
-      "close": "17:00"
-    },
-    "sunday": {
-      "open": "07:00",
-      "close": "17:00"
-    }
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": "Los Palos Grandes",
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-31",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/nEfKF84Br9sKHTkA7"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/tucafearabica/"
-      },
-      {
-        "type": "menu_pdf",
-        "url": "Menú Arábica 2024.pdf"
-      }
-    ]
-  },
-  "hours_source": "Google Maps / public listing",
-  "hours_verified": "2026-08-31",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": false,
-    "hours": true,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps short link provided; exact coordinates pending extraction"
-},
-{
-  "name": "Ciento Ochenta Grados Café",
-  "rate": 4.8,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/MMU7zAnj4uLp5FkV8?g_st=ac",
-  "location": "Caracas 1070, Venezuela",
-  "zone": "este",
-  "notes": "Cafetería y pastelería con propuesta de café, desayunos, postres y opciones dulces y saladas. Cuenta con servicio para comer en el lugar, para llevar y delivery.",
-  "image": "assets/images/cafes/ciento-ochenta-grados-cafe.jpg",
-  "image_source": "https://www.instagram.com/cientoochentagrados_ccs/",
-  "image_type": "local",
-  "image_verified": true,
-  "category": "Cafetería / pastelería / espresso bar",
-  "brand": "Ciento Ochenta Grados",
-  "branch": null,
-  "municipality": "Sucre",
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/MMU7zAnj4uLp5FkV8?g_st=ac",
-  "source_type": "Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/cientoochentagrados_ccs/",
-  "amenities": {
-    "wifi": true,
-    "coworking": true,
-    "cozy": true,
-    "terrace": true,
-    "pet_friendly": true,
-    "parking": true,
-    "brunch": true,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": {
-      "closed": true
-    },
-    "tuesday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "wednesday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "thursday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "friday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "saturday": {
-      "open": "08:00",
-      "close": "20:00"
-    },
-    "sunday": {
-      "closed": true
-    }
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": null,
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-31",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/MMU7zAnj4uLp5FkV8?g_st=ac"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/cientoochentagrados_ccs/"
-      },
-      {
-        "type": "menu_captures",
-        "url": "https://drive.google.com/drive/folders/1h7c2E5DGXfabQyIlLOSnR_EA_mhyw-yA"
-      }
-    ]
-  },
-  "hours_source": "Google Maps / Waze",
-  "hours_verified": "2026-08-31",
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": false,
-    "hours": true,
-    "amenities": true,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps listing verified; exact coordinates pending extraction"
-},
-{
-  "name": "Marroncito Coffee & Deli",
-  "slug": "marroncito-coffee-deli",
-  "rate": 3.3,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/YWdPMHYxQFMDbhMf9",
-  "location": "Calle Villaflor, Caracas 1050, Venezuela",
-  "zone": "centro",
-  "notes": "Cafetería y deli en Caracas. La ubicación pública de la marca indica Calle Villaflor, Caracas. Cuenta con menú, Instagram oficial y canales de contacto propios.",
-  "image": "assets/images/cafes/marroncito-coffee-deli.jpg",
-  "image_source": "https://www.instagram.com/marroncito.ccs/",
-  "image_type": "local",
-  "image_verified": true,
-  "category": "Cafetería / café / deli",
-  "brand": "Marroncito Coffee & Deli",
-  "branch": null,
-  "municipality": "Libertador",
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/YWdPMHYxQFMDbhMf9",
-  "source_type": "Google Maps / Instagram oficial / Linktree oficial",
-  "instagram": "https://www.instagram.com/marroncito.ccs/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": true,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": "Sabana Grande / Calle Villaflor",
-  "website": "https://linktr.ee/Marroncito",
-  "other_locations": [],
-  "zones": [
-    "centro"
-  ],
-  "research": {
-    "verified_at": "2026-08-31",
-    "confidence": "high",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/YWdPMHYxQFMDbhMf9"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/marroncito.ccs/"
-      },
-      {
-        "type": "official_linktree",
-        "url": "https://linktr.ee/Marroncito"
-      },
-      {
-        "type": "menu_capture",
-        "url": "https://drive.google.com/drive/folders/1lcvTtom2i6p5r1GQXNa6H96tN0amSpTZ"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": true,
-    "coordinates": false,
-    "hours": false,
-    "amenities": false,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps short link provided; exact coordinates pending extraction"
-},
-{
-  "name": "Café 80",
-  "slug": "cafe-80-caracas",
-  "rate": 3.0,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/sy823HvdbhhVGHCS7",
-  "location": "https://maps.app.goo.gl/sy823HvdbhhVGHCS7",
-  "zone": "este",
-  "notes": "Cafetería en Caracas. Información verificada mediante Google Maps, Instagram oficial y material de menú compartido para el proyecto.",
-  "image": "assets/images/cafes/cafe-80-caracas.jpg",
-  "image_source": "https://www.instagram.com/cafe80vzla/",
-  "image_type": "local",
-  "image_verified": true,
-  "category": "Cafetería / café",
-  "brand": "Café 80",
-  "branch": null,
-  "municipality": null,
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/sy823HvdbhhVGHCS7",
-  "source_type": "Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/cafe80vzla/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": null,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": null,
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-31",
-    "confidence": "medium",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/sy823HvdbhhVGHCS7"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/cafe80vzla/"
-      },
-      {
-        "type": "menu_capture",
-        "url": "https://drive.google.com/drive/folders/1TEEi7E_AXFtp_VfJiP19eY2sqAO_NesE"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": false,
-    "coordinates": false,
-    "hours": false,
-    "amenities": false,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps short link provided; exact coordinates pending extraction"
-},
-{
-  "name": "Chi.La cof & tea",
-  "slug": "chila-cof-tea",
-  "rate": 5.0,
-  "cost": null,
-  "link": "https://maps.app.goo.gl/feZcDE7TPp8MaTGH6",
-  "location": "Caracas, Venezuela",
-  "zone": "este",
-  "notes": "Cafetería especializada en café y té en Caracas. Información pública verificada mediante Google Maps e Instagram oficial.",
-  "image": "assets/images/cafes/chila-cof-tea.jpg",
-  "image_source": "https://www.instagram.com/chila_coftea/",
-  "image_type": "local",
-  "image_verified": true,
-  "category": "Cafetería / café / té",
-  "brand": "Chi.La cof & tea",
-  "branch": null,
-  "municipality": null,
-  "status": "Verificado: activo",
-  "source_url": "https://maps.app.goo.gl/feZcDE7TPp8MaTGH6",
-  "source_type": "Google Maps / Instagram oficial",
-  "instagram": "https://www.instagram.com/chila_coftea/",
-  "amenities": {
-    "wifi": null,
-    "coworking": null,
-    "cozy": null,
-    "terrace": null,
-    "pet_friendly": null,
-    "parking": null,
-    "brunch": null,
-    "sightseeing": null
-  },
-  "hours": {
-    "monday": null,
-    "tuesday": null,
-    "wednesday": null,
-    "thursday": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
-  },
-  "latitude": null,
-  "longitude": null,
-  "neighborhood": null,
-  "website": null,
-  "other_locations": [],
-  "zones": [
-    "este"
-  ],
-  "research": {
-    "verified_at": "2026-08-31",
-    "confidence": "medium",
-    "sources": [
-      {
-        "type": "google_maps",
-        "url": "https://maps.app.goo.gl/feZcDE7TPp8MaTGH6"
-      },
-      {
-        "type": "instagram",
-        "url": "https://www.instagram.com/chila_coftea/"
-      }
-    ]
-  },
-  "hours_source": null,
-  "hours_verified": null,
-  "filter_ready": {
-    "zone": true,
-    "municipality": false,
-    "coordinates": false,
-    "hours": false,
-    "amenities": false,
-    "price": false
-  },
-  "coordinate_accuracy": "pending_exact_map",
-  "coordinate_source": "Google Maps short link provided; exact coordinates pending extraction"
-}
-
+  }
 ]
-
