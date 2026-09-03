@@ -347,7 +347,7 @@ function getMenuPreviewSize() {
 }
 
 
-function createMenuItemMarkup(item) {
+function createMenuItemMarkup(item, cafeSlug) {
   const hasPrice =
     item.price !== null &&
     item.price !== undefined &&
@@ -361,18 +361,18 @@ function createMenuItemMarkup(item) {
         )
       : "";
 
-  const imageMarkup =
-    item.image
-      ? `
-        <div class="cafe-menu-preview-card__image">
-          <img
-            src="${item.image}"
-            alt="${item.name}"
-            loading="lazy"
-          >
-        </div>
-      `
-      : "";
+  const imageUrl =
+  getLocalMenuImageUrl(cafeSlug, item);
+
+const imageMarkup = `
+  <div class="cafe-menu-preview-card__image">
+    <img
+      src="${imageUrl}"
+      alt="${item.name}"
+      loading="lazy"
+    >
+  </div>
+`;
 
   return `
     <article class="cafe-menu-preview-card">
@@ -402,7 +402,7 @@ function createMenuItemMarkup(item) {
 }
 
 
-function renderMenu(menu) {
+function renderMenu(menu, cafeSlug) {
   if (!cafeDetailMenu) return;
 
   const items =
@@ -517,9 +517,11 @@ function renderMenu(menu) {
       pages[currentPage] || [];
 
     itemsContainer.innerHTML =
-      currentItems
-        .map(createMenuItemMarkup)
-        .join("");
+    currentItems
+  .map((item) =>
+    createMenuItemMarkup(item, cafeSlug)
+  )
+  .join("");
 
     renderPagination();
 
@@ -718,18 +720,75 @@ function renderMenu(menu) {
 
 
   if (fullMenuButton) {
-    fullMenuButton.addEventListener(
-      "click",
-      () => {
-        openFullMenuModal(
-          menu
-        );
-      }
-    );
-  }
+  fullMenuButton.addEventListener(
+    "click",
+    () => {
+      openFullMenuModal(
+        menu,
+        cafeSlug
+      );
+    }
+  );
+}
 }
 
-function openFullMenuModal(menu) {
+function getLocalMenuImageUrl(cafeSlug, item) {
+  if (!item?.name) {
+    return "assets/images/menu/menu-placeholder.jpg";
+  }
+
+  const safeName = item.name
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  const imageAliases = {
+    canel: {
+      "reina-pepiada":
+        "variedad-de-arepas-reina-carne-y-atun",
+
+      "carne-al-grill":
+        "variedad-de-arepas-reina-carne-y-atun",
+
+      "atun":
+        "variedad-de-arepas-reina-carne-y-atun",
+
+      "carne-desmechada":
+        "variedad-de-arepas-carne-pollo-y-asado",
+
+      "pollo-al-grill-arepas":
+        "variedad-de-arepas-carne-pollo-y-asado",
+
+      "asado-negro-arepas":
+        "variedad-de-arepas-carne-pollo-y-asado",
+
+      "cordon-bleu":
+        "corden-bleu",
+
+      "tostadas-con-huevo-ricotta-y-aguacate":
+        "tostadas-con-huevo-ricotta-y-aguacate",
+
+      "milanesa-de-pollo-con-tomates-cherry-confitados":
+        "milanesa-de-pollo-con-tomates-cherry",
+
+      "hamburguesa-queso-cheddar-y-tocineta":
+        "hamburguesa-de-queso-cheddar-y-tocineta",
+
+      "panquecas-nutella-y-frutas":
+        "panquecas-de-nutella-y-frutas"
+    }
+  };
+
+  const finalName =
+    imageAliases[cafeSlug]?.[safeName] ||
+    safeName;
+
+  return `assets/images/menu/${cafeSlug}/${finalName}.jpg`;
+}
+
+function openFullMenuModal(menu, cafeSlug) {
   const items =
     Array.isArray(menu?.items)
       ? menu.items
@@ -782,20 +841,18 @@ function openFullMenuModal(menu) {
             : "";
 
 
-        const imageMarkup =
-          item.image
-            ? `
-              <div
-                class="full-menu-card__image"
-              >
-                <img
-                  src="${item.image}"
-                  alt="${item.name}"
-                  loading="lazy"
-                >
-              </div>
-            `
-            : "";
+        const imageUrl =
+  getLocalMenuImageUrl(cafeSlug, item);
+
+const imageMarkup = `
+  <div class="full-menu-card__image">
+    <img
+      src="${imageUrl}"
+      alt="${item.name}"
+      loading="lazy"
+    >
+  </div>
+`;
 
 
         return `
@@ -1348,7 +1405,10 @@ cafeDetailSideMapsLink.href =
 
   renderHours(cafe);
 
-  renderMenu(menu);
+  renderMenu(
+  menu,
+  cafe.slug || slugify(cafe.name)
+);
   renderCafeMap(cafe);
 }
 
@@ -1412,15 +1472,21 @@ renderMenuLoading();
   cafe.slug || slugify(cafe.name)
 )
   .then((menu) => {
-    renderMenu(menu);
-  })
+  renderMenu(
+    menu,
+    cafe.slug || slugify(cafe.name)
+  );
+})
       .catch((error) => {
         console.error(
           "Error cargando menú:",
           error
         );
 
-        renderMenu(null);
+        renderMenu(
+  null,
+  cafe.slug || slugify(cafe.name)
+);
       });
 
 
