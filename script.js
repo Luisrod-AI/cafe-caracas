@@ -113,12 +113,10 @@ const mapsUrl =
 
     card.innerHTML = `
       <a
-        class="coffee-card__link"
-        href="cafe.html?cafe=${encodeURIComponent(cafeSlug)}"
-        aria-label="Ver detalles de ${cafe.name}"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+  class="coffee-card__link"
+  href="cafe.html?cafe=${encodeURIComponent(cafeSlug)}"
+  aria-label="Ver detalles de ${cafe.name}"
+>
         <div class="coffee-card__media">
           ${imageMarkup}
 

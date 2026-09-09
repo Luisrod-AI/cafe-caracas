@@ -367,10 +367,19 @@ function createMenuItemMarkup(item, cafeSlug) {
 const imageMarkup = `
   <div class="cafe-menu-preview-card__image">
     <img
-      src="${imageUrl}"
-      alt="${item.name}"
-      loading="lazy"
-    >
+  src="${imageUrl}"
+  alt="${item.name}"
+  loading="lazy"
+  onerror="
+    if (!this.dataset.triedPng) {
+      this.dataset.triedPng = '1';
+      this.src = this.src.replace(/\.jpg$/i, '.png');
+    } else {
+      this.onerror = null;
+      this.src = 'assets/images/menu/menu-placeholder.jpg';
+    }
+  "
+>
   </div>
 `;
 
@@ -731,18 +740,12 @@ function renderMenu(menu, cafeSlug) {
   );
 }
 }
-
 function getLocalMenuImageUrl(cafeSlug, item) {
   if (!item?.name) {
     return "assets/images/menu/menu-placeholder.jpg";
   }
 
-  const safeName = item.name
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+  const safeName = slugify(item.name);
 
   const imageAliases = {
     canel: {
@@ -767,9 +770,6 @@ function getLocalMenuImageUrl(cafeSlug, item) {
       "cordon-bleu":
         "corden-bleu",
 
-      "tostadas-con-huevo-ricotta-y-aguacate":
-        "tostadas-con-huevo-ricotta-y-aguacate",
-
       "milanesa-de-pollo-con-tomates-cherry-confitados":
         "milanesa-de-pollo-con-tomates-cherry",
 
@@ -777,9 +777,136 @@ function getLocalMenuImageUrl(cafeSlug, item) {
         "hamburguesa-de-queso-cheddar-y-tocineta",
 
       "panquecas-nutella-y-frutas":
-        "panquecas-de-nutella-y-frutas"
+  "panquecas-de-nutella-y-frutas"
+}
+};
+  /*
+    Glace Gelato Caffè
+
+    Aquí no dependemos únicamente
+    del nombre exacto del producto.
+
+    Varias fotos representan familias
+    completas de productos.
+  */
+  if (cafeSlug === "glace-gelato-caffe") {
+
+    if (safeName.includes("glacita")) {
+      return `assets/images/menu/${cafeSlug}/glacita.jpg`;
     }
-  };
+
+    if (safeName.includes("flor-helada")) {
+      return `assets/images/menu/${cafeSlug}/flor-helada.jpg`;
+    }
+
+    if (safeName.includes("waffle")) {
+      return `assets/images/menu/${cafeSlug}/waffle-con-helado.jpg`;
+    }
+
+    if (safeName.includes("brookie")) {
+      return `assets/images/menu/${cafeSlug}/brookie-con-helado.jpg`;
+    }
+
+    if (
+      safeName.includes("brownie-premium")
+    ) {
+      return `assets/images/menu/${cafeSlug}/brownie-premium-con-helado.jpg`;
+    }
+
+    if (
+      safeName.includes("brownie") &&
+      safeName.includes("helado")
+    ) {
+      return `assets/images/menu/${cafeSlug}/brownie-con-helado.jpg`;
+    }
+
+    if (
+      safeName.includes("barquilla") &&
+      safeName.includes("doble")
+    ) {
+      return `assets/images/menu/${cafeSlug}/barquilla-doble.jpg`;
+    }
+
+    if (safeName.includes("batido")) {
+      return `assets/images/menu/${cafeSlug}/batido-de-frutas.jpg`;
+    }
+
+    if (
+      safeName.includes("mocktail") &&
+      safeName.includes("naranja")
+    ) {
+      return `assets/images/menu/${cafeSlug}/mocktail-naranja.jpg`;
+    }
+
+    if (
+      safeName.includes("mocktail") &&
+      (
+        safeName.includes("rojo") ||
+        safeName.includes("frutos-rojos")
+      )
+    ) {
+      return `assets/images/menu/${cafeSlug}/mocktail-rojo.jpg`;
+    }
+
+    if (
+      safeName.includes("paleta") &&
+      safeName.includes("sin-relleno")
+    ) {
+      return `assets/images/menu/${cafeSlug}/paletas-sin-relleno.jpg`;
+    }
+
+    if (
+      safeName.includes("paleta") &&
+      safeName.includes("rellena")
+    ) {
+      return `assets/images/menu/${cafeSlug}/paletas-rellenas.jpg`;
+    }
+
+    if (
+      safeName.includes("crema-real")
+    ) {
+      return `assets/images/menu/${cafeSlug}/tinita-crema-real.jpg`;
+    }
+
+    if (
+      safeName === "chocolate" ||
+      safeName.includes("tinita-chocolate")
+    ) {
+      return `assets/images/menu/${cafeSlug}/tinita-chocolate.jpg`;
+    }
+
+    if (safeName.includes("pistacho")) {
+      return `assets/images/menu/${cafeSlug}/galleta-pistacho.jpg`;
+    }
+
+    if (safeName.includes("red-velvet")) {
+      return `assets/images/menu/${cafeSlug}/galleta-red-velvet.jpg`;
+    }
+
+    if (
+      safeName.includes("chocolate-chips") ||
+      safeName.includes("chispas-de-chocolate")
+    ) {
+      return `assets/images/menu/${cafeSlug}/galleta-chocolate-chips.jpg`;
+    }
+
+    if (
+      safeName.includes("triple-chocolate")
+    ) {
+      return `assets/images/menu/${cafeSlug}/galleta-chocolate.jpg`;
+    }
+
+    if (
+      safeName.includes("helado") &&
+      (
+        safeName.includes("1l") ||
+        safeName.includes("1-l") ||
+        safeName.includes("1-litro")
+      )
+    ) {
+      return `assets/images/menu/${cafeSlug}/helado-1l.jpg`;
+    }
+  }
 
   const finalName =
     imageAliases[cafeSlug]?.[safeName] ||
@@ -847,10 +974,19 @@ function openFullMenuModal(menu, cafeSlug) {
 const imageMarkup = `
   <div class="full-menu-card__image">
     <img
-      src="${imageUrl}"
-      alt="${item.name}"
-      loading="lazy"
-    >
+  src="${imageUrl}"
+  alt="${item.name}"
+  loading="lazy"
+  onerror="
+    if (!this.dataset.triedPng) {
+      this.dataset.triedPng = '1';
+      this.src = this.src.replace(/\.jpg$/i, '.png');
+    } else {
+      this.onerror = null;
+      this.src = 'assets/images/menu/menu-placeholder.jpg';
+    }
+  "
+>
   </div>
 `;
 
