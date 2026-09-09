@@ -4329,6 +4329,11 @@
     "source_type": "Base original",
     "instagram": null,
     "image": "assets/images/cafes/granier.jpg",
+    "gallery": [
+  "assets/images/cafes/granier/granier-2.jpg",
+  "assets/images/cafes/granier/granier-3.jpg",
+  "assets/images/cafes/granier/granier-4.jpg"
+],
     "image_type": "local",
     "image_verified": true,
     "amenities": {
@@ -8715,6 +8720,232 @@
   },
   "coordinate_accuracy": "pending_exact_map",
   "coordinate_source": "Google Maps short link provided; exact coordinates pending extraction"
+},
+{
+  "name": "Sésamo",
+  "rate": 4.4,
+  "cost": "5-10$",
+  "link": "https://maps.app.goo.gl/3fbr8vb1QKZmYzGEA",
+  "location": "La Candelaria",
+  "zone": "centro",
+  "notes": "Café, panadería artesanal, pizzas y comida",
+  "image": "assets/images/cafes/sesamo-cafe.jpg",
+  "image_source": "https://www.instagram.com/sesamo_cafe",
+  "image_type": "local",
+  "image_verified": true,
+  "category": "Café / panadería / restaurante",
+  "brand": "Sésamo",
+  "branch": null,
+  "municipality": "Libertador",
+  "status": "Verificado: activo",
+  "source_url": "https://www.instagram.com/sesamo_cafe",
+  "source_type": "Instagram + Google Maps",
+  "instagram": "https://www.instagram.com/sesamo_cafe",
+  "amenities": {
+    "wifi": null,
+    "coworking": null,
+    "cozy": null,
+    "terrace": null,
+    "pet_friendly": null,
+    "parking": null,
+    "brunch": null,
+    "sightseeing": null
+  },
+  "hours": {
+    "monday": null,
+    "tuesday": null,
+    "wednesday": null,
+    "thursday": null,
+    "friday": null,
+    "saturday": null,
+    "sunday": null
+  },
+  "latitude": null,
+  "longitude": null,
+  "neighborhood": "La Candelaria",
+  "website": null,
+  "other_locations": [],
+  "zones": [
+    "centro"
+  ],
+  "research": {
+    "verified_at": "2026-09-09",
+    "confidence": "medium",
+    "sources": [
+      {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/3fbr8vb1QKZmYzGEA"
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/sesamo_cafe"
+      }
+    ]
+  },
+  "hours_source": null,
+  "hours_verified": null,
+  "filter_ready": {
+    "zone": true,
+    "municipality": true,
+    "coordinates": false,
+    "hours": false,
+    "amenities": false,
+    "price": true
+  },
+  "coordinate_accuracy": null,
+  "coordinate_source": null
+},
+{
+  "name": "Afrocafé Restaurante",
+  "rate": 4.4,
+  "cost": "5-10$",
+  "link": "https://maps.app.goo.gl/PABYUEFuAcnU2LJ38?g_st=ac",
+  "location": "La Hoyada",
+  "zone": "centro",
+  "notes": "Café, desayunos y comida venezolana",
+  "image": "assets/images/cafes/afrocafe-restaurante.jpg",
+  "image_source": "https://www.instagram.com/afrocafe_restaurante",
+  "image_type": "local",
+  "image_verified": true,
+  "category": "Café / restaurante",
+  "brand": "Afrocafé",
+  "branch": null,
+  "municipality": "Libertador",
+  "status": "Verificado: activo",
+  "source_url": "https://www.instagram.com/afrocafe_restaurante",
+  "source_type": "Instagram + Google Maps",
+  "instagram": "https://www.instagram.com/afrocafe_restaurante",
+  "amenities": {
+    "wifi": null,
+    "coworking": null,
+    "cozy": null,
+    "terrace": null,
+    "pet_friendly": null,
+    "parking": null,
+    "brunch": null,
+    "sightseeing": null
+  },
+  "hours": {
+    "monday": null,
+    "tuesday": null,
+    "wednesday": null,
+    "thursday": null,
+    "friday": null,
+    "saturday": null,
+    "sunday": null
+  },
+  "latitude": null,
+  "longitude": null,
+  "neighborhood": "La Hoyada",
+  "website": null,
+  "other_locations": [],
+  "zones": [
+    "centro"
+  ],
+  "research": {
+    "verified_at": "2026-09-09",
+    "confidence": "high",
+    "sources": [
+      {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/PABYUEFuAcnU2LJ38?g_st=ac"
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/afrocafe_restaurante"
+      }
+    ]
+  },
+  "hours_source": null,
+  "hours_verified": null,
+  "filter_ready": {
+    "zone": true,
+    "municipality": true,
+    "coordinates": false,
+    "hours": false,
+    "amenities": false,
+    "price": true
+  },
+  "coordinate_accuracy": null,
+  "coordinate_source": null
+},
+{
+  "name": "Gelato Mio",
+  "rate": 4.7,
+  "cost": "5-10$",
+  "link": "https://maps.app.goo.gl/g3wFkqNZWLQWCZaj6",
+  "location": "La Trinidad",
+  "zone": "sureste",
+  "notes": "Heladería artesanal italiana, café y postres",
+  "image": "assets/images/cafes/gelato-mio.jpg",
+  "image_source": "https://www.instagram.com/gelatomiove",
+  "image_type": "local",
+  "image_verified": true,
+  "category": "Heladería / café",
+  "brand": "Gelato Mio",
+  "branch": null,
+  "municipality": "Baruta",
+  "status": "Verificado: activo",
+  "source_url": "https://www.instagram.com/gelatomiove",
+  "source_type": "Instagram + Google Maps + investigación web",
+  "instagram": "https://www.instagram.com/gelatomiove",
+  "amenities": {
+    "wifi": null,
+    "coworking": null,
+    "cozy": null,
+    "terrace": null,
+    "pet_friendly": null,
+    "parking": true,
+    "brunch": null,
+    "sightseeing": null
+  },
+  "hours": {
+    "monday": null,
+    "tuesday": null,
+    "wednesday": null,
+    "thursday": null,
+    "friday": null,
+    "saturday": null,
+    "sunday": null
+  },
+  "latitude": null,
+  "longitude": null,
+  "neighborhood": "La Trinidad",
+  "website": null,
+  "other_locations": [],
+  "zones": [
+    "sureste"
+  ],
+  "research": {
+    "verified_at": "2026-09-09",
+    "confidence": "high",
+    "sources": [
+      {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/g3wFkqNZWLQWCZaj6"
+      },
+      {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/kL67GeE9kC3WTUfK8?g_st=ac"
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/gelatomiove"
+      }
+    ]
+  },
+  "hours_source": null,
+  "hours_verified": null,
+  "filter_ready": {
+    "zone": true,
+    "municipality": true,
+    "coordinates": false,
+    "hours": false,
+    "amenities": true,
+    "price": true
+  },
+  "coordinate_accuracy": null,
+  "coordinate_source": null
 }
 
 ]

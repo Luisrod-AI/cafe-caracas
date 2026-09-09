@@ -29,6 +29,25 @@ const errorContainer =
 
 const cafeDetailImage =
   document.getElementById("cafeDetailImage");
+  const cafeDetailGalleryImage2 =
+  document.getElementById(
+    "cafeDetailGalleryImage2"
+  );
+
+const cafeDetailGalleryImage3 =
+  document.getElementById(
+    "cafeDetailGalleryImage3"
+  );
+
+const cafeDetailGalleryImage4 =
+  document.getElementById(
+    "cafeDetailGalleryImage4"
+  );
+
+const cafeDetailGalleryButton =
+  document.getElementById(
+    "cafeDetailGalleryButton"
+  );
 
 const cafeDetailCategory =
   document.getElementById("cafeDetailCategory");
@@ -1449,6 +1468,48 @@ function initializeCafeFavorite(
     }
   );
 }
+function renderCafeGallery(cafe) {
+  const gallery =
+    Array.isArray(cafe.gallery)
+      ? cafe.gallery.filter(Boolean)
+      : [];
+
+  const mainImage =
+    cafe.image || "";
+
+  cafeDetailImage.src =
+    mainImage;
+
+  cafeDetailImage.alt =
+    `${cafe.name} - foto principal`;
+
+
+  if (cafeDetailGalleryImage2) {
+    cafeDetailGalleryImage2.src =
+      gallery[0] || mainImage;
+
+    cafeDetailGalleryImage2.alt =
+      `${cafe.name} - foto 2`;
+  }
+
+
+  if (cafeDetailGalleryImage3) {
+    cafeDetailGalleryImage3.src =
+      gallery[1] || mainImage;
+
+    cafeDetailGalleryImage3.alt =
+      `${cafe.name} - foto 3`;
+  }
+
+
+  if (cafeDetailGalleryImage4) {
+    cafeDetailGalleryImage4.src =
+      gallery[2] || mainImage;
+
+    cafeDetailGalleryImage4.alt =
+      `${cafe.name} - foto 4`;
+  }
+}
 
 /* =====================================================
    RENDER CAFE
@@ -1468,11 +1529,7 @@ function renderCafe(cafe, menu) {
   document.title =
     `${cafe.name} | Caracas Café`;
 
-  cafeDetailImage.src =
-    cafe.image || "";
-
-  cafeDetailImage.alt =
-    cafe.name;
+  renderCafeGallery(cafe);
 
   cafeDetailCategory.textContent =
     cafe.category ||

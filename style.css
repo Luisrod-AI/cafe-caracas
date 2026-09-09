@@ -12401,3 +12401,168 @@ body.full-menu-open {
   }
 
 }
+
+/* =====================================================
+   CAFE DETAIL GALLERY
+===================================================== */
+
+.cafe-detail-gallery {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 8px;
+
+  width: 100%;
+  height: 460px;
+
+  overflow: hidden;
+  border-radius: 22px;
+}
+
+
+/* =========================
+   MAIN IMAGE
+========================= */
+
+.cafe-detail-gallery__main {
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.cafe-detail-gallery__main img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  object-fit: cover;
+}
+
+
+/* =========================
+   RIGHT SIDE
+========================= */
+
+.cafe-detail-gallery__side {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+
+  min-width: 0;
+  min-height: 0;
+}
+
+
+/* =========================
+   TOP TWO IMAGES
+========================= */
+
+.cafe-detail-gallery__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+
+  min-width: 0;
+  min-height: 0;
+}
+
+
+/* =========================
+   GALLERY ITEMS
+========================= */
+
+.cafe-detail-gallery__item {
+  position: relative;
+
+  min-width: 0;
+  min-height: 0;
+
+  overflow: hidden;
+}
+
+.cafe-detail-gallery__item img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  object-fit: cover;
+}
+
+
+/* =========================
+   IMAGE INTERACTION
+========================= */
+
+.cafe-detail-gallery img {
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+.cafe-detail-gallery__main:hover img,
+.cafe-detail-gallery__item:hover img {
+  transform: scale(1.025);
+}
+
+
+/* =========================
+   SHOW ALL BUTTON
+========================= */
+
+.cafe-detail-gallery__button {
+  position: absolute;
+
+  right: 18px;
+  bottom: 18px;
+
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+
+  padding: 10px 15px;
+
+  background: #fff;
+  color: #171717;
+
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.cafe-detail-gallery__button:hover {
+  background: #f7f7f7;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 760px) {
+
+  .cafe-detail-gallery {
+    grid-template-columns: 1fr;
+    height: auto;
+    border-radius: 18px;
+  }
+
+  .cafe-detail-gallery__main {
+    height: 310px;
+  }
+
+  .cafe-detail-gallery__side {
+    grid-template-rows: auto;
+  }
+
+  .cafe-detail-gallery__top {
+    height: 150px;
+  }
+
+  .cafe-detail-gallery__bottom {
+    height: 190px;
+  }
+
+}
