@@ -1,0 +1,301 @@
+const fs = require("fs");
+const path = require("path");
+
+const inputPath = path.join(__dirname, "cafes.json");
+const outputPath = path.join(__dirname, "cafes-v2.json");
+
+function slugify(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function cleanUnknown(value) {
+  const normalized = String(value || "").trim().toLowerCase();
+
+  if (
+    !normalized ||
+    normalized === "averiguar" ||
+    normalized === "por verificar" ||
+    normalized.includes("por verificar")
+  ) {
+    return null;
+  }
+
+  return String(value).trim();
+}
+
+function normalizeStatus(value) {
+  const normalized = String(value || "").trim().toLowerCase();
+
+  if (normalized.includes("verificado")) {
+    return "verified";
+  }
+
+  if (normalized.includes("cerrado")) {
+    return "closed";
+  }
+
+  if (normalized.includes("duplicado")) {
+    return "duplicate";
+  }
+
+  if (normalized.includes("fuera de caracas")) {
+    return "not-in-caracas";
+  }
+
+  return "pending";
+}
+
+function extractCoordinates(url) {
+  if (!url) {
+    return {
+      latitude: null,
+      longitude: null
+    };
+  }
+
+  const match = String(url).match(/!3d(-?\d+(?:\.\d+)?)!4d(-?\d+(?:\.\d+)?)/);
+
+  if (!match) {
+    return {
+      latitude: null,
+      longitude: null
+    };
+  }
+
+  return {
+    latitude: Number(match[1]),
+    longitude: Number(match[2])
+  };
+}
+
+function parsePrice(value) {
+  const original = String(value || "").trim();
+  const normalized = original.toLowerCase();
+
+  if (
+    !normalized ||
+    normalized === "averiguar" ||
+    normalized.includes("por verificar")
+  ) {
+    return {
+      label: "Por verificar",
+      min: null,
+      max: null,
+      level: null
+    };
+  }
+
+  const numbers = original.match(/\d+(?:\.\d+)?/g);
+
+  if (!numbers || numbers.length === 0) {
+    return {
+      label: original,
+      min: null,
+      max: null,
+      level: null
+    };
+  }
+
+  const min = Number(numbers[0]);
+  const max = numbers[1] ? Number(numbers[1]) : min;
+
+  let level = 1;
+
+  if (max > 10 && max <= 20) {
+    level = 2;
+  } else if (max > 20 && max <= 30) {
+    level = 3;
+  } else if (max > 30) {
+    level = 4;
+  }
+
+  return {
+    label: `$${min}${max !== min ? `-${max}` : ""}`,
+    min,
+    max,
+    level
+  };
+}
+
+function inferConcepts(cafe) {
+  const sourceText = [
+    cafe.name,
+    cafe.category,
+    cafe.notes,
+    cafe.brand,
+    cafe.branch
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  const concepts = [];
+
+  const rules = [
+    ["coworking", ["coworking", "trabajar", "work"]],
+    ["cozy", ["cozy", "acogedor", "acogedora"]],
+    ["sightseeing", ["vista", "rooftop", "mirador"]],
+    ["terraza", ["terraza", "outdoor", "aire libre"]],
+    ["pet-friendly", ["pet friendly", "mascotas"]],
+    ["wifi", ["wifi", "wi-fi"]],
+    ["estacionamiento", ["estacionamiento", "parking"]],
+    ["brunch", ["brunch"]],
+    ["silencioso", ["silencioso", "tranquilo", "tranquila"]],
+    ["especialidad", ["especialidad", "specialty"]],
+    ["postres", ["postres", "pastelería", "pasteleria"]],
+    ["musica-en-vivo", ["música en vivo", "musica en vivo"]]
+  ];
+
+  rules.forEach(([concept, keywords]) => {
+    const matches = keywords.some((keyword) => sourceText.includes(keyword));
+
+    if (matches) {
+      concepts.push(concept);
+    }
+  });
+
+  return [...new Set(concepts)];
+}
+
+function normalizeBranch(value) {
+  const cleaned = cleanUnknown(value);
+
+  if (!cleaned) {
+    return null;
+  }
+
+  return cleaned
+    .replace(/\s*\/\s*por verificar/gi, "")
+    .trim() || null;
+}
+
+function migrateCafe(cafe) {
+  const coordinates = extractCoordinates(
+    cafe.location ||
+    cafe.source_url ||
+    cafe.link
+  );
+
+  const slug = slugify(cafe.name);
+
+  return {
+    id: slug,
+    name: cafe.name,
+    slug,
+
+    status: normalizeStatus(cafe.status),
+    verifiedAt: null,
+
+    brand: cleanUnknown(cafe.brand) || cafe.name,
+    branch: normalizeBranch(cafe.branch),
+
+    location: {
+      zone: cleanUnknown(cafe.zone),
+      municipality: cleanUnknown(cafe.municipality),
+      neighborhood: null,
+      address: null,
+      latitude: coordinates.latitude,
+      longitude: coordinates.longitude
+    },
+
+    rating: {
+      google:
+        cafe.rate !== undefined &&
+        cafe.rate !== null &&
+        cafe.rate !== ""
+          ? Number(cafe.rate)
+          : null,
+      reviews: null
+    },
+
+    price: parsePrice(cafe.cost),
+
+    concepts: inferConcepts(cafe),
+
+    services: {
+      wifi: null,
+      parking: null,
+      petFriendly: null,
+      outdoor: null,
+      powerOutlets: null,
+      airConditioning: null,
+      reservations: null
+    },
+
+    experience: {
+      coworking: null,
+      cozy: null,
+      quiet: null,
+      brunch: null,
+      specialtyCoffee: null,
+      desserts: null,
+      liveMusic: null
+    },
+
+    links: {
+      googleMaps:
+        cleanUnknown(cafe.location) ||
+        cleanUnknown(cafe.source_url),
+      searchMaps: cleanUnknown(cafe.link),
+      instagram: cleanUnknown(cafe.instagram),
+      website: null,
+      whatsapp: null
+    },
+
+    media: {
+      cover: null,
+      gallery: []
+    },
+
+    content: {
+      shortDescription: null,
+      notes: cleanUnknown(cafe.notes)
+    },
+
+    source: {
+      type: cleanUnknown(cafe.source_type),
+      url:
+        cleanUnknown(cafe.source_url) ||
+        cleanUnknown(cafe.location)
+    },
+
+    featured: false,
+    recommended: false
+  };
+}
+
+function runMigration() {
+  try {
+    const rawData = fs.readFileSync(inputPath, "utf8");
+    const cafes = JSON.parse(rawData);
+
+    if (!Array.isArray(cafes)) {
+      throw new Error("cafes.json debe contener un array.");
+    }
+
+    const migratedCafes = cafes.map(migrateCafe);
+
+    fs.writeFileSync(
+      outputPath,
+      JSON.stringify(migratedCafes, null, 2),
+      "utf8"
+    );
+
+    console.log(
+      `Migración completada: ${migratedCafes.length} cafés`
+    );
+
+    console.log(`Archivo creado: ${outputPath}`);
+  } catch (error) {
+    console.error("Error durante la migración:", error.message);
+    process.exitCode = 1;
+  }
+}
+
+runMigration();

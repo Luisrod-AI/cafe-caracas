@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Detalles del café en Caracas Café."
+  />
+
+  <title>Café | Caracas Café</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  />
+
+  <link
+  rel="stylesheet"
+  href="cafe-responsive.css"
+/>
+
+</head>
+
+<body class="cafe-detail-page">
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="cafe-detail-header">
+
+    <div class="cafe-detail-header__inner">
+
+      <a
+        class="brand"
+        href="index.html"
+      >
+        <span
+          class="brand__mark"
+          aria-hidden="true"
+        >
+          <span></span>
+        </span>
+
+        <div>
+          <strong>Caracas Café</strong>
+          <small>Descubre Caracas café por café</small>
+        </div>
+      </a>
+
+
+      <a
+        class="cafe-detail-back"
+        href="search.html"
+      >
+        ← Volver a explorar
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+     DETAIL
+========================== -->
+
+<main
+  id="cafeDetail"
+  class="cafe-detail"
+>
+
+  <!-- =========================
+       TOP AREA
+  ========================== -->
+
+  <section class="cafe-detail-top">
+
+    <!-- COLUMNA IZQUIERDA -->
+
+    <div class="cafe-detail-left">
+
+      <!-- Galería de imágenes -->
+
+<div class="cafe-detail-gallery">
+
+  <!-- Foto principal -->
+
+  <div class="cafe-detail-gallery__main">
+
+    <img
+      id="cafeDetailImage"
+      src=""
+      alt=""
+    />
+
+  </div>
+
+
+  <!-- Fotos secundarias -->
+
+  <div class="cafe-detail-gallery__side">
+
+    <div class="cafe-detail-gallery__top">
+
+      <div class="cafe-detail-gallery__item">
+        <img
+          id="cafeDetailGalleryImage2"
+          src=""
+          alt=""
+        />
+      </div>
+
+      <div class="cafe-detail-gallery__item">
+        <img
+          id="cafeDetailGalleryImage3"
+          src=""
+          alt=""
+        />
+      </div>
+
+    </div>
+
+
+    <div
+      class="
+        cafe-detail-gallery__item
+        cafe-detail-gallery__bottom
+      "
+    >
+
+      <img
+        id="cafeDetailGalleryImage4"
+        src=""
+        alt=""
+      />
+
+      <button
+        id="cafeDetailGalleryButton"
+        class="cafe-detail-gallery__button"
+        type="button"
+      >
+        ▦ Ver todas las fotos
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+      <!-- Café + menú -->
+
+      <section class="cafe-detail-overview">
+
+        <!-- Información del café -->
+
+        <div class="cafe-detail-overview__info">
+
+          <div class="cafe-detail-intro">
+
+            <div>
+
+              <p
+                id="cafeDetailCategory"
+                class="cafe-detail-eyebrow"
+              ></p>
+
+              <h1 id="cafeDetailName">
+                Café
+              </h1>
+
+              <div class="cafe-detail-meta">
+
+                <span
+                  id="cafeDetailRating"
+                  class="cafe-detail-rating"
+                ></span>
+
+                <span aria-hidden="true">
+                  ·
+                </span>
+
+                <span id="cafeDetailLocation">
+                </span>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+          <div class="cafe-detail-overview__description">
+
+            <p
+              id="cafeDetailDescription"
+              class="cafe-detail-description"
+            ></p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Menú -->
+
+        <div class="cafe-detail-overview__menu">
+
+          <span class="cafe-detail-eyebrow">
+            MENÚ
+          </span>
+
+          <h2>
+            Menú destacado
+          </h2>
+
+          <div
+            id="cafeDetailMenu"
+            class="cafe-detail-menu"
+          >
+
+            <div class="cafe-detail-menu__placeholder">
+             <span class="cafe-menu-status">
+               Menú próximamente disponible
+             </span>
+
+             <p>
+               Estamos preparando la información del menú de este café.
+             </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+    <!-- cierra .cafe-detail-left -->
+
+
+    <!-- COLUMNA DERECHA / RESUMEN -->
+
+    <aside class="cafe-detail-sidebar">
+
+      <div class="cafe-detail-summary">
+
+        <span class="cafe-detail-eyebrow">
+          RESUMEN
+        </span>
+
+
+        <div class="cafe-detail-summary__rating">
+
+  <div class="cafe-detail-summary__rating-value">
+    <span>★</span>
+
+    <strong id="cafeDetailSideRating">
+      —
+    </strong>
+  </div>
+
+  <button
+    type="button"
+    class="cafe-detail-favorite"
+    aria-label="Guardar café"
+  >
+    ♡
+  </button>
+
+</div>
+
+
+        <div class="cafe-detail-summary__row">
+
+          <span>Precio</span>
+
+          <strong id="cafeDetailPrice">
+            Por verificar
+          </strong>
+
+        </div>
+
+
+        <div class="cafe-detail-summary__row">
+
+          <span>Zona</span>
+
+          <strong id="cafeDetailZone">
+            Caracas
+          </strong>
+
+        </div>
+
+
+        <div class="cafe-detail-summary__hours">
+
+          <h3>
+            Horario
+          </h3>
+
+          <div
+            id="cafeDetailHours"
+            class="cafe-detail-hours cafe-detail-hours--summary"
+          ></div>
+
+        </div>
+
+
+        <a
+          id="cafeDetailSideMapsLink"
+          class="cafe-detail-primary-button"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Cómo llegar
+        </a>
+
+      </div>
+
+    </aside>
+
+  </section>
+  <!-- cierra .cafe-detail-top -->
+
+
+  <!-- =========================
+       LOWER CONTENT
+  ========================== -->
+
+  <section class="cafe-detail-content">
+
+
+    <!-- Amenidades -->
+
+    <section
+      class="cafe-detail-section"
+      aria-labelledby="amenitiesTitle"
+    >
+
+      <h2 id="amenitiesTitle">
+        Lo que encontrarás
+      </h2>
+
+      <div
+        id="cafeDetailAmenities"
+        class="cafe-detail-amenities"
+      ></div>
+
+    </section>
+
+    <section class="cafe-detail-bottom-grid">
+
+  <!-- =========================
+       LOCATION
+  ========================== -->
+
+  <section
+    class="cafe-detail-bottom-panel cafe-detail-location"
+    aria-labelledby="locationTitle"
+  >
+
+    <h2 id="locationTitle">
+      Ubicación
+    </h2>
+
+    <div class="cafe-detail-location__content">
+
+      <div class="cafe-detail-location__info">
+
+        <p id="cafeDetailAddress"></p>
+
+        <a
+          id="cafeDetailMapsLink"
+          class="cafe-detail-map-button"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver en Google Maps
+        </a>
+
+      </div>
+
+      <div
+        id="cafeDetailMap"
+        class="cafe-detail-map"
+        aria-label="Mapa de ubicación del café"
+      ></div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       REVIEWS
+  ========================== -->
+
+  <section
+    class="cafe-detail-bottom-panel cafe-detail-reviews"
+    aria-labelledby="reviewsTitle"
+  >
+
+    <div class="cafe-detail-reviews__header">
+
+      <h2 id="reviewsTitle">
+        Opiniones
+      </h2>
+
+      <span class="cafe-detail-reviews__all">
+        Ver todas
+      </span>
+
+    </div>
+
+    <div
+      id="cafeDetailReviews"
+      class="cafe-detail-reviews__track"
+    >
+
+      <div class="cafe-detail-reviews-placeholder">
+        <p>
+          Próximamente podrás consultar opiniones
+          de este café directamente desde Caracas Café.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+</section>
+
+  </section>
+
+</main>
+
+<footer class="cafe-detail-footer">
+
+  <div class="cafe-detail-footer__inner">
+
+    <div class="cafe-detail-footer__brand">
+      <a class="brand" href="index.html">
+        <span
+          class="brand__mark"
+          aria-hidden="true"
+        >
+          <span></span>
+        </span>
+
+        <div>
+          <strong>Caracas Café</strong>
+          <small>Descubre Caracas café por café</small>
+        </div>
+      </a>
+    </div>
+
+
+    <nav
+      class="cafe-detail-footer__nav"
+      aria-label="Navegación del footer"
+    >
+      <a href="search.html">
+        Explorar cafeterías
+      </a>
+
+      <a href="#">
+        Guía de café
+      </a>
+
+      <a href="#">
+        Acerca de
+      </a>
+
+      <a href="#">
+        Contacto
+      </a>
+    </nav>
+
+
+    <p class="cafe-detail-footer__copyright">
+      © 2026 Caracas Café. Todos los derechos reservados.
+    </p>
+
+  </div>
+
+</footer>
+
+
+  <!-- =========================
+       ERROR
+  ========================== -->
+
+  <section
+    id="cafeDetailError"
+    class="cafe-detail-error"
+    hidden
+  >
+
+    <h1>
+      No encontramos este café
+    </h1>
+
+    <p>
+      Puede que el enlace haya cambiado o el café ya no esté disponible.
+    </p>
+
+    <a href="search.html">
+      Volver a explorar cafés
+    </a>
+
+  </section>
+
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+></script>
+
+<script src="favorites.js"></script>
+<script src="cafe.js"></script>
+
+</body>
+</html>
